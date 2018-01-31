@@ -23,7 +23,7 @@ h2 {
     border-bottom: 1px solid #bbb;
 }
 
-header, main, footer {
+header, main, footer{
     margin: 1.5rem auto;
     padding: .9rem;
     max-width: 40rem;
@@ -43,5 +43,10 @@ header img {
 
 footer {
     font-size: .70rem;
+}
+
+nav { 
+    text-align: center;
+    color:#2E2E2E;
 }
                     
