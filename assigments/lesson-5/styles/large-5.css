@@ -1,3 +1,5 @@
+* { box-sizing: border-box; background: #2D3A3A}
+
 @media only screen and (min-width: 64em) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
   
@@ -5,4 +7,3 @@
   
 }
 
-* { box-sizing: border-box; background: #2D3A3A}
