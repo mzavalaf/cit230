@@ -6,6 +6,9 @@ body {
   font-size: 16px;
   /* Declare the base font-family - from google font api or other */
 }
+@media only screen and (min-width: 37.5em){
+    
+}
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
