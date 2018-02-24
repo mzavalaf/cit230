@@ -34,12 +34,25 @@ header .subheading {
     background-color: #040F0F;
 }
 nav {
-    
+    padding: .25em .5em;
+    background: #248232;
+    margin: .4rem auto;
 }
 nav button {}
-nav ul {}
-nav ul li {}
-nav ul li a {}
+nav ul {
+    margin 0;
+    padding:  0;
+    background: #248232;
+}
+nav ul li {  
+    display: inline;
+    margin-right: 1em;
+    }
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background: #248232;
+}
 nav ul li.active a {}
 nav ul li a:hover {}
 
@@ -73,4 +86,6 @@ footer>p, span {
     
 } /* This structure refers to p elements that are direct children of the footer element */
 
-/* Other Class Selectors */
+
+/* child selectors */
+.nav li > a { text-decoration: none;}
