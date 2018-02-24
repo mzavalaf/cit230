@@ -12,13 +12,26 @@ body {
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+ margin: 1.5rem auto;
+ padding: .9rem;
+ max-width: 40rem;
 }
 
 header {}
 header h1 {}
-header img {}
+header img {
+    float : left; }
 header .subheading {}
+/* header, footer, footer a {
+    text-align: center;
+    background-color: #4169E1;
+    color: whitesmoke;
+}
 
+header img {
+    width:15%;
+    height: auto;
+    float: right;*/
 nav {}
 nav button {}
 nav ul {}
