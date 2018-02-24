@@ -41,20 +41,21 @@ nav {
 nav button {}
 nav ul {
     margin 0;
-    padding:  0;
+    padding:  auto;
     background: #248232;
 }
 nav ul li {  
-    display: inline;
-    margin-right: 1em;
+    display:inline-block;
+    margin-left: 6em;
+    
     }
 nav ul li a {
     color: #fff;
     text-decoration: none;
     background: #248232;
 }
-nav ul li.active a {}
-nav ul li a:hover {}
+nav ul li.active a { background-color: #2D3A3A; }
+nav ul li a:hover {background-color: #2BA84A;}
 
 main { 
     text-align: left;
@@ -74,18 +75,25 @@ article p.town-article img {  /* This structure refers to img elements that are 
 
 footer {
     background-color: #040F0F;
-    margin: .4rem auto;
+    margin: .4rem auto
+    
    }
 footer aside {
     background-color: #040F0F;
     margin: .4rem auto;
+    padding: .5rem;
 }
 footer>p, span {
     background-color: #040F0F;
     margin: .4rem auto;
-    
-} /* This structure refers to p elements that are direct children of the footer element */
+    padding: .4rem;
+  } 
+picture img {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+/* This structure refers to p elements that are direct children of the footer element */
 
 
 /* child selectors */
-.nav li > a { text-decoration: none;}
