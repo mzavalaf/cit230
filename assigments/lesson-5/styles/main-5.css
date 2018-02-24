@@ -12,17 +12,17 @@ body {
 
 header, nav, main, footer {  
     text-align: center;
-    background-color: #040F0F;
-    color: whitesmoke;
+    color: #FCFFFC;
+    max-width: 80rem
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
 
 header {
-    
-    margin: .5rem auto;
+    background-color: #040F0F;
+    margin: .4rem auto;
     padding: .9rem;
-    max-width: 40rem
+    
 }
 header h1 {background-color: #040F0F; }
 header img {
@@ -30,18 +30,12 @@ header img {
     width:15%;
     height: auto;
 }
-header .subheading {}
-/* header, footer, footer a {
-    text-align: center;
-    background-color: #4169E1;
-    color: whitesmoke;
+header .subheading {
+    background-color: #040F0F;
 }
-
-header img {
-    width:15%;
-    height: auto;
-    float: right;*/
-nav {}
+nav {
+    
+}
 nav button {}
 nav ul {}
 nav ul li {}
@@ -49,7 +43,11 @@ nav ul li a {}
 nav ul li.active a {}
 nav ul li a:hover {}
 
-main {}
+main { 
+    text-align: left;
+    color: #FCFFFC;
+    margin: .4rem auto;
+}
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
 main figure img { width: 100%; }
@@ -61,8 +59,18 @@ article p.town-article img {  /* This structure refers to img elements that are 
   margin: ???;
 }
 
-footer {}
-footer aside {}
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+footer {
+    background-color: #040F0F;
+    margin: .4rem auto;
+   }
+footer aside {
+    background-color: #040F0F;
+    margin: .4rem auto;
+}
+footer>p, span {
+    background-color: #040F0F;
+    margin: .4rem auto;
+    
+} /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
