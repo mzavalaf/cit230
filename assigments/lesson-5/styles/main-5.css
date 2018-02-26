@@ -20,8 +20,8 @@ header, nav, main, footer {
 
 header {
     background-color: #040F0F;
-    margin: .4rem auto;
-    padding: .9rem;
+    margin: .5rem auto;
+    padding: .10rem;
     
 }
 header h1 {background-color: #040F0F; }
@@ -29,6 +29,8 @@ header img {
     float : left;
     width:15%;
     height: auto;
+    margin: 1rem 1rem;
+    
 }
 header .subheading {
     background-color: #040F0F;
@@ -46,7 +48,7 @@ nav ul {
 }
 nav ul li {  
     display:inline-block;
-    margin-left: 6em;
+    margin-left: 4em;
     
     }
 nav ul li a {
@@ -64,10 +66,13 @@ main {
 }
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { 
-    align-content:center;
-    width: 50%; 
-}
+
+main picture img {
+    display: block;
+    margin-left: 20em;
+    margin-right: 20em;
+    width: 60%;    
+   }
 
 section {}
 
