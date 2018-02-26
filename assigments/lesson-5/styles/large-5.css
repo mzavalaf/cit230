@@ -5,3 +5,81 @@
   article p.town-article img { width: 29.333%; }
   
 }
+
+header, nav, main, footer {  
+    text-align: center;
+    color: #FCFFFC;
+    max-width: 80rem
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+    background-color: #040F0F;
+    margin: .4rem auto;
+    padding: .9rem;
+    
+}
+header h1 {background-color: #040F0F; }
+header img {
+    float : left;
+    width:15%;
+    height: auto;
+}
+header .subheading {
+    background-color: #040F0F;
+}
+nav {
+    padding: .25em .5em;
+    background: #248232;
+    margin: .4rem auto;
+}
+nav button {}
+nav ul {
+    margin 0;
+    padding:  auto;
+    background: #248232;
+}
+nav ul li {  
+    display:inline-block;
+    margin-left: 6em;
+    
+    }
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background: #248232;
+}
+nav ul li.active a { background-color: #2D3A3A; }
+nav ul li a:hover {background-color: #2BA84A;}
+
+main { 
+    text-align: left;
+    color: #FCFFFC;
+    margin: .4rem auto;
+}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { 
+    align-content:center;
+    width: 50%; 
+}
+
+section {}
+
+
+footer {
+    background-color: #040F0F;
+    margin: .4rem auto
+    
+   }
+footer aside {
+    background-color: #040F0F;
+    margin: .4rem auto;
+    padding: .5rem;
+}
+footer>p, span {
+    background-color: #040F0F;
+    margin: .4rem auto;
+    padding: .4rem;
+  } 
