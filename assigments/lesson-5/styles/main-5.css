@@ -64,12 +64,15 @@ main {
 }
 main h2 {}
 main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { width: 100%; }
+main figure img { 
+    align-content:center;
+    width: 50%; 
+}
 
 section {}
 
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
+article p.town-article img { float: right;/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: 50%; /* fill the page in the small/phone view */
   margin: ???;
 }
 
@@ -88,10 +91,6 @@ footer>p, span {
     margin: .4rem auto;
     padding: .4rem;
   } 
-picture img {
-    float: right;
-    margin: 0 0 1em 1em;
-}
 
 /* This structure refers to p elements that are direct children of the footer element */
 
