@@ -8,10 +8,3 @@
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
 }
-main figure { margin: 0 0 .0rem 0%; width:100%; }
-
-main figure img {
-   
-    margin-left: auto;
-    margin-right: auto;
-   
