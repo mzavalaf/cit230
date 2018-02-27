@@ -72,7 +72,7 @@ main {
     color: #FCFFFC;
     margin: .4rem auto;
 }
-main h2 { text-align: center}
+main h2 { text-align: left}
 main figure { margin: 0 0 .0rem 0%; width:100%; }
 
 main figure img {
