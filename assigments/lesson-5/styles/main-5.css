@@ -41,8 +41,8 @@ nav {
     background: #248232;
     margin: .4rem auto;
 }
-header button { 
-    float: right;
+nav button { 
+    float: left;
     margin: 1rem 1rem;
 
 }
