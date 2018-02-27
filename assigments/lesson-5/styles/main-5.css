@@ -111,7 +111,13 @@ footer>p, span {
     margin: .4rem auto;
     padding: .4rem;
   } 
-
+picture img {
+    float : left;
+    width:10%;
+    height: auto;
+    margin: 2rem 2rem;
+    
+}
 
 /* This structure refers to p elements that are direct children of the footer element */
 
