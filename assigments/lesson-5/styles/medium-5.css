@@ -4,8 +4,13 @@
   nav button { display:none;} 
   /* hamburger button does not need to be shown */
   
-  section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
+  section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
   
-  article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
+  article p.town-article img { 
+      float : right;
+      width: 60%;
+      height: auto;
+      
+      /* responsive images */
 
 }

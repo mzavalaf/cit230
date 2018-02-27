@@ -72,7 +72,7 @@ main {
     color: #FCFFFC;
     margin: .4rem auto;
 }
-main h2 {}
+main h2 { text-align: center}
 main figure { margin: 0 0 .0rem 0%; width:100%; }
 
 main figure img {
@@ -87,13 +87,13 @@ main figure img {
 section {}
 
 article p.town-article img {
-  display: block; 
+  display: inline-block; 
     margin-left: auto;
     margin-right: auto;
     width: 50%; 
     height: 50%
 }
-}/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
  /* fill the page in the small/phone view */
 
 footer {
