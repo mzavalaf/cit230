@@ -14,7 +14,7 @@ body {
 header, nav, main, footer {  
     text-align: center;
     color: #FCFFFC;
-    max-width: 100rem
+    max-width: 85rem
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
