@@ -14,7 +14,7 @@ body {
 header, nav, main, footer {  
     text-align: center;
     color: #FCFFFC;
-    max-width: 85rem
+    max-width: 70rem
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
 }
@@ -55,8 +55,8 @@ nav ul li {
     display:inline-block;
     margin-bottom: .2rem;
     margin-top: .2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     
     }
 nav ul li a {
