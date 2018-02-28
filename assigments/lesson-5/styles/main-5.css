@@ -4,7 +4,7 @@
 
 body {
   font-size: 18px;
-  width: 100%;
+  
   /* Declare the base font-family - from google font api or other */
 }
 @media only screen and (min-width: 20.5em){
@@ -14,7 +14,7 @@ body {
 header, nav, main, footer {  
     text-align: center;
     color: #FCFFFC;
-    max-width: 80em;
+    max-width: auto;
     
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
@@ -22,8 +22,8 @@ header, nav, main, footer {
 
 header {
     background-color: #040F0F;
-    margin: .5rem auto;
-    padding: .10rem;
+    margin: 0rem auto;
+    
     
 }
 header h1 {background-color: #040F0F; }
@@ -71,7 +71,9 @@ nav ul li a:hover {background-color: #2BA84A;}
 main { 
     text-align: left;
     color: #FCFFFC;
-    margin: .4rem auto;
+    margin: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 main h2 { text-align: left}
 main figure { margin: 0 0 .0rem 0%; width:100%; }
@@ -85,7 +87,11 @@ main figure img {
      
 }
 
-section {}
+section table {
+    width: 80%; 
+    height: 80%;
+    
+}
 
 article p.town-article img {
   display: inline-block; 
@@ -119,6 +125,7 @@ picture img {
     margin: 2rem 2rem;
     
 }
+
 
 /* This structure refers to p elements that are direct children of the footer element */
 
