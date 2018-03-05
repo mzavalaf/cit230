@@ -16,6 +16,8 @@ header, nav, main, footer {
     font-size: 19px;
     color: #FCFFFC;
     max-width: auto;
+    margin-left: auto;
+    margin-right:auto;
     
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
@@ -44,7 +46,7 @@ nav {
     margin: .4rem auto;
 }
 nav button { 
-    float: left;
+    float: center;
     margin: 1rem 1rem;
 
 }
