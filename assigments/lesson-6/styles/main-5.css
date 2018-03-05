@@ -10,9 +10,6 @@ body {
   
   /* Declare the base font-family - from google font api or other */
 }
-@media only screen and (min-width: 20.5em){
-    
-}
 
 header, nav, main, footer {  
     text-align: center;
