@@ -3,16 +3,17 @@
 /* This wildcard applies to all elements ensuring a box layout model */
 
 body {
+  font-family: 'Spectral SC', serif;
   font-size: 18px;
+  color: #FCFFFC;
+
   
   /* Declare the base font-family - from google font api or other */
-}
-@media only screen and (min-width: 20.5em){
-    
 }
 
 header, nav, main, footer {  
     text-align: center;
+    font-size: 19px;
     color: #FCFFFC;
     max-width: auto;
     
@@ -94,12 +95,16 @@ section table {
 }
 
 article p.town-article img {
-  display: inline-block; 
+    float: right;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
-    height: 50%
+    width:40%; 
+    height: auto;
 }
+
+article { 
+    text-align: left;
+    font-size: 16px;}
 /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
  /* fill the page in the small/phone view */
 

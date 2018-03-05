@@ -95,12 +95,16 @@ section table {
 }
 
 article p.town-article img {
-  display: inline-block; 
+    float: right;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
-    height: 50%
+    width:40%; 
+    height: auto;
 }
+
+article { 
+    text-align: left;
+    font-size: 16px;}
 /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
  /* fill the page in the small/phone view */
 
