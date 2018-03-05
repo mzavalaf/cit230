@@ -6,22 +6,21 @@ body {
   font-family: 'Spectral SC', serif;
   font-size: 18px;
   color: #FCFFFC;
-
-  
-  /* Declare the base font-family - from google font api or other */
+    /* Declare the base font-family - from google font api or other */
 }
 
 header, nav, main, footer {  
     text-align: center;
     font-size: 19px;
     color: #FCFFFC;
-    max-width: auto;
+    max-width: 80rem;
     margin-left: auto;
     margin-right:auto;
+    }
     
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
-}
+
 
 header {
     background-color: #040F0F;
@@ -48,6 +47,8 @@ nav {
 nav button { 
     float: center;
     margin: 1rem 1rem;
+    background: #248232;
+    vertical-align: middle;
 
 }
 nav ul {
@@ -91,8 +92,7 @@ main figure img {
 }
 
 section table {
-    width: 80%; 
-    height: 80%;
+   
     
 }
 
@@ -112,18 +112,21 @@ article {
 
 footer {
     background-color: #040F0F;
-    margin: .4rem auto
+    margin: .4rem auto;
+    padding: .4rem;
     
    }
 footer aside {
     background-color: #040F0F;
     margin: .4rem auto;
     padding: .5rem;
+    font-size: 15px;
 }
-footer>p, span {
+footer p, span {
     background-color: #040F0F;
-    margin: .4rem auto;
-    padding: .4rem;
+    margin: .4rem ;
+   
+    font-size: 15px;
   } 
 picture img {
     float : left;

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 37.5em) {/*
+@media only screen and (max-width: 600px) {/*
    Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
   
    
@@ -20,4 +20,7 @@
     }
     
     ul { display: none;}
+    
+   
+    
 }
