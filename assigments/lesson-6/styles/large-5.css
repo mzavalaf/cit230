@@ -1,8 +1,8 @@
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 37.5em) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
   
   article p.town-article img { width: 29.333%; }
-  nav button { display:none; 
+  nav button { display:none; }
     
 }
