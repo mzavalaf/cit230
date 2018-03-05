@@ -16,6 +16,7 @@ body {
 
 header, nav, main, footer {  
     text-align: center;
+    font-size: 19px;
     color: #FCFFFC;
     max-width: auto;
     
