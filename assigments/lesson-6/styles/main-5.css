@@ -2,6 +2,8 @@
 
 /* This wildcard applies to all elements ensuring a box layout model */
 
+
+
 body {
   font-family: 'Spectral SC', serif;
   font-size: 18px;
@@ -30,7 +32,8 @@ header {
 }
 header h1 {background-color: #040F0F; }
 header img {
-    float : left;
+	float: left;
+	margin: 0 2% 0 0;
     width:15%;
     height: auto;
     margin: 1rem 1rem;

@@ -12,7 +12,10 @@ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
-* { box-sizing: border-box; background: #2D3A3A}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; background: #2D3A3A}
+
+
 
 /* Sections
    ========================================================================== */
