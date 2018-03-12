@@ -3,5 +3,7 @@
   
   article p.town-article img { width: 29.333%; }
   nav button { display:none; }
-    
+	
+header img  { float: left; width: 8%; height: auto;}
+   
 }
