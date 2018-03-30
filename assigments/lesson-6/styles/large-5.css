@@ -5,5 +5,9 @@
   nav button { display:none; }
 	
 header img  { float: left; width: 8%; height: auto;}
+	
+header, main, footer {  
+  
+    }
    
 }
