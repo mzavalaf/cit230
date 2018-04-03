@@ -11,18 +11,20 @@
     display: block;
     text-align: center;
   }
-}
 
      
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
   
-  article p.town-article img { width: 29.333%; }
+  article p.town-article img { width: 250px; height: auto;}
  
 	
-header img  { float: left; width: 8%; height: auto;}
-	
-header, main, footer {  
-  
+header img  { float: left; width: 100px; height: auto;}
+
+section.forecast { display: none; }
+	   
+picture { float : left; width:100px; height: auto;  
     }
-   
 }
+
+   
+
