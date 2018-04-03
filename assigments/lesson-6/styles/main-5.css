@@ -59,12 +59,12 @@ header .subheading {
 }
 
 .topnav a:hover {
-  background-color: #040F0F;
-  color: #FCFFFC;
+  background-color: #4CAF50;
+  color: black;
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #040F0F ;
   color: white;
 }
 
