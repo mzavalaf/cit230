@@ -1,0 +1,147 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+
+
+body {
+  font-family: 'Spectral SC', serif;
+  font-size: 18px;
+  color: #FCFFFC;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header, nav, main, footer {  
+    text-align: center;
+    font-size: 19px;
+    color: #FCFFFC;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    }
+    
+
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+  /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+
+
+header {
+    background-color: #040F0F;
+    margin: 0rem auto;
+    
+    
+}
+header h1 {background-color: #040F0F; }
+header img {
+	float: left;
+	margin: .5rem .5rem 0 .5rem;
+    width:8%;
+    height: auto;
+   
+    
+}
+header .subheading {
+    background-color: #040F0F;
+}
+nav {
+    padding: .25em .5em;
+    background: #248232;
+    margin: .4rem auto;
+}
+nav button { 
+    float: center;
+    margin: 1rem 1rem;
+    background: #248232;
+    vertical-align: middle;
+
+}
+nav ul {
+    margin 0;
+    padding:  auto;
+    background: #248232;
+}
+nav ul li {  
+    display:inline-block;
+    margin-bottom: .2rem;
+    margin-top: .2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    }
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    background: #248232;
+}
+nav ul li.active a { background-color: #2D3A3A; }
+nav ul li a:hover {background-color: #2BA84A;}
+
+main { 
+    text-align: left;
+    color: #FCFFFC;
+    margin: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+main h2 { text-align: left}
+main figure { margin: 0 0 .0rem 0%; width:100%; }
+
+main figure img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    height: 100%;
+     
+}
+
+section table {
+   
+    
+}
+
+article p.town-article img {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%; 
+    height: auto;
+}
+
+article { 
+    text-align: left;
+    font-size: 16px;}
+/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+ /* fill the page in the small/phone view */
+
+footer {
+    background-color: #040F0F;
+    margin: .4rem auto;
+    padding: .4rem;
+    
+   }
+footer aside {
+    background-color: #040F0F;
+    margin: .4rem auto;
+    padding: .5rem;
+    font-size: 15px;
+}
+footer p, span {
+    background-color: #040F0F;
+    margin: .4rem ;
+   
+    font-size: 15px;
+  } 
+picture img {
+    float : left;
+    width:10%;
+    height: auto;
+    margin: 2rem 2rem;
+    
+}
+
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+
+/* child selectors */
