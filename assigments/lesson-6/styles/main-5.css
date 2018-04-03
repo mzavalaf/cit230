@@ -11,7 +11,7 @@ body {
     /* Declare the base font-family - from google font api or other */
 }
 
-header, nav, main, footer {  
+header,  main, footer {  
     text-align: center;
     font-size: 19px;
     color: #FCFFFC;
@@ -20,6 +20,7 @@ header, nav, main, footer {
     margin-right:auto;
     }
     
+
 
     /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
@@ -50,7 +51,7 @@ header .subheading {
 
 .topnav a {
   float: left;
-  display: inline-block;
+  display: block;
   color: #f2f2f2;
   text-align: center;
   padding: 16px 25px;
@@ -97,9 +98,6 @@ main figure img {
      
 }
 
-     
-}
-
 article p.town-article img {
     float: right;
     width:250px; 
@@ -110,15 +108,14 @@ article {
     text-align: left;
     font-size: 16px;}
 
-section .condition {display: block;
+section .condition {
 	text-align: left
 		;
 	
 }
 
 
-
-section .highlow { display: block;
+section .highlow {
 	text-align: left;
 	
 }
