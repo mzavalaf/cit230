@@ -60,11 +60,11 @@ header .subheading {
 
 .topnav a:hover {
   background-color: #4CAF50;
-  color: black;
+  color: #FCFFFC;
 }
 
 .active {
-  background-color: #040F0F ;
+  background-color: #040F0F;
   color: white;
 }
 
