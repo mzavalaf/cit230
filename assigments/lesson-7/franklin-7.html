@@ -1,89 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Franklin City | Weather Me</title>
-  <meta name="author" content="Drazen Lucic">
-  <meta name="description" content="Providing weather alerts and forecasts for Franklin City">
-  <link href="styles/normalize.css" rel="stylesheet"> 
-  <link href="styles/main.css" rel="stylesheet">
-  <link href="styles/medium.css" rel="stylesheet">  
-  <link href="styles/large.css" rel="stylesheet">
+  <title>Franklin | Cities´ Weather Now </title>
+  <meta name="author" content="Mosiah J. Zavala">
+  <meta name="description" content="Franklin | Cities´ Weather Now  CIT 230 BYUI-I">
+  <!-- external style references in the proper cascading order -->    
+  <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">  <!-- Google API font reference -->
+  <link href="styles/normalize.css" rel="stylesheet"> <!-- normalize useragent/browser defaults -->
+  <link href="styles/main-5.css" rel="stylesheet">    <!-- default styles - small/phone views -->
+  <link href="styles/medium-5.css" rel="stylesheet">  <!-- medium/tablet views -->
+  <link href="styles/large-5.css" rel="stylesheet">   <!-- large/wide/desktop views --> 
+  
 </head>
 <body>
 
   <header>
-    <div class="header-container">
-      <div>
-        <img class="display-small" src="images/logo-small.png" alt="Weather Me Logo">
-        <img class="display-medium" src="images/logo-medium.png" alt="Weather Me Logo">
-        <img class="display-large" src="images/logo-large.png" alt="Weather Me Logo">
-      </div>
-      <div>
-        <h1 class="title">Weather Me!</h1>
-        <h3 class="subtitle">Weather alerts on any device.</h3>
-      </div>
-    </div>
-  </header>
+    <img src="images/cities100px.JPG" alt="Cities´ Weather Now.">
+    <h1>Franklin | City </h1> 
+    <div class="subheading"> We tell you what's going on... </div>
+ </header>
 
-  <nav>
-    <div>
-      <button onclick="toggleMenu()">&#9776;</button>
-      <ul id="primaryNav" class="hide">
-        <li><a href="#">Home</a></li>
-        <li class="active"><a href="#">Franklin</a></li>
-        <li><a href="#">Greenville</a></li>
-        <li><a href="#">Springfield</a></li>
-        <li><a href="#">Storm Center</a></li>
-        <li><a href="gallery-7.html">Gallery</a></li>
-      </ul>   
-    </div>
+  <!-- site navigation use placeholder references     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
+  <nav class="topnav" id="myTopnav">
+        
+    	<a href="#" >Home</a>
+    	<a href="#" class="active"> Franklin </a>
+    	<a href="#">Greenville</a>
+    	<a href="#">Springfield</a>
+    	<a href="#">Storm Center</a>
+    	<a href="https://www.lds.org/?lang=eng">Gallery</a>
+	  <a href="javascript:void(0);" style="font-size:16px; " class="icon" onclick="myFunction()">&#9776;</a>
+      <script src="scripts/barnav.js"></script>	
   </nav>
     
-  <main>
-    <div class="weather-container">
-      <div class="main-image" >
+  
+    <figure>
+		<img src="images/city.jpeg" class="responsive" alt="franklin-original">
+    </figure>
+	
+	<main>
+    <h2>Franklin City</h2>
+      <article>
+      <h3>Franklin Breaks Record</h3>	
+      <p class="town-article">
+		  
+        <img src="images/Franklyn_city200.jpg" alt="" width="" height=""
+			 >
+ 	
+      Founded in 1799 and named after Benjamin Franklin. One of the bloodiest wars in the Civil War took place here, bringing thousands of historic tourists each year to visit the site of the Battle of Franklin, Canton Plantation, the Carter House and many other historic locations throughout the City. In 2009, The National Trust for Historic Preservation awarded Franklin the prestigious title of Distinctive Destination for offering an authentic visitor experience by combining dynamic downtowns, cultural diversity, attractive architecture and a strong commitment to historic preservation. In the same year the American Planning Association named the downtown Franklin area a Top Ten Great Neighborhood for the Downtown Franklin’s outstanding historic character and architecture and meaningful protection measures the City has adopted to ensure Franklin’s unique sense of place is not compromised by future growth and development.
+        
+</p>
+		 
+</article>
+<div class="current">
+        <h2><p>Sunny!!</p></h2>
         <picture>
-          <source srcset="images/franklin-small.jpg" media="(max-width: 600px)">
-          <source srcset="images/franklin-medium.jpg" media="(max-width: 1024px)">
-          <source srcset="images/franklin-large.jpg">
-          <img src="images/franklin-large.jpg" alt="Franklin image">
+		
+            <img src="images/ss.jpg" alt="" width="" height="">
+		
         </picture>
-      </div>
-      <div class="weather-group">
-        <h2 class="main-title">Franklin</h2>
-        <div class="weather-block">
-          <div class="weather-desc">Sunny</div>
-          <div class="weather-icon-container">
-            <img src="images/sun.png" class="weather-icon" alt="Weather icon">
-          </div>
-        </div>
-        <div class="temperature">
-          High:
-          &nbsp;<span id="high-temp"></span>&deg;F
-          <br>
-          Low:
-          &nbsp;<span id="low-temp"></span>&deg;F
-        </div>
-        <div class="precip-wind">
-          Precipitation: 
-          &nbsp;<span id="precipitation"></span>%
-          <br>
-          Wind Speed:
-          &nbsp;<span id="wind-speed"></span>mph
-          &nbsp;<span id="wind-direction"></span>
-          <br>
-          Chill Factor:
-          &nbsp;<span id="chill-factor"></span>&deg;F
-        </div>
-      </div>
-    </div>
+</div> 
+	  <br>
+    <section class="highlow">
+		<h3><p>Weather Summary</p></h3>
+     
+        <p>High: 90°F Low: 66°F</p>  
+	 </section>
+        
+      <section class="conditions">
+        <p>Precipitation: 0% Wind Speed: 5mph SW</p>  
+      </section>           
+    
         
     <section class="forecast">
       <h3>10 Day Forecast</h3>
       <table>
-        <thead>
+	    <thead>
           <tr>
             <th>Day 1</th>
             <th>Day 2</th>
@@ -96,54 +90,36 @@
             <th>Day 9</th>
             <th>Day 10</th>
           </tr>
-        </thead>
+		</thead>
         <tbody>  
           <tr>
-            <td>89&deg;F</td>
-            <td>87&deg;F</td>
-            <td>78&deg;F</td>
-            <td>75&deg;F</td>
-            <td>72&deg;F</td>
-            <td>72&deg;F</td>
-            <td>79&deg;F</td>
-            <td>83&deg;F</td>
-            <td>85&deg;F</td>
-            <td>89&deg;F</td>
+            <td>89&deg; F</td>
+            <td>87&deg; F</td>
+            <td>78&deg; F</td>
+            <td>75&deg; F</td>
+            <td>72&deg; F</td>
+            <td>72&deg; F</td>
+            <td>79&deg; F</td>
+            <td>83&deg; F</td>
+            <td>85&deg; F</td>
+            <td>89&deg; F</td>
           </tr>
-        </tbody>
+		</tbody>
       </table>
     </section>
       
-    <article>
-      <h3>Franklin Breaks Record</h3> 
-      <div class="article-image">
-        <img src="images/town-article-photo.jpg" alt="Article photo">
-      </div>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dignissimos commodi, illo mollitia nisi quod tenetur libero quisquam. Libero quasi repudiandae minima pariatur voluptate laudantium deleniti, voluptatibus quos doloribus veritatis eveniet, iste fuga ipsum sequi iusto molestias. Similique excepturi, veritatis sint fuga consectetur suscipit sapiente tempora reprehenderit rerum! Reprehenderit, laboriosam!
-      </p>
-    </article>      
-  
-  </main>
+</main>
     
   <footer>
     <aside>
-      <span>Weather Me!</span><br>
-      123 Main St.<br>
-      Franklin, MU 83454<br>
-      (999) 999-9999<br>
-      contact@theurl.com<br>
+      
     </aside>
-    <p class="footer-bar">
-      &copy;2018 All Rights Reserved | 
-      Weather Me! | 
-      <span id="currentdate"></span>
-    </p>
+    <p class="footer-bar">&copy; Mosiah J. Zavala All Rights Reserved | Cities´ Weather Now. | Honduras de Allá |<span id="currentdate"> <script src="scripts/currentdate.js">
+	</script></span></p>
   </footer>
 
-  <script src="scripts/hamburger.js"></script>
-  <script src="scripts/currentdate.js"></script>
-  <script src="scripts/windchill.js"></script>
+  
+  
 
 </body>
 </html>

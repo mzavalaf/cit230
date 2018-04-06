@@ -1,28 +1,39 @@
-@media only screen and (max-width: 600px) {/*
+/*
    Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
   
    
   /* hamburger button does not need to be shown */
+
   
-  section.forecast { display: none; }
+
   /* show the 10-day forecast with the medium view and up */
   
-  article p.town-article img { 
+  
+    
+
+	
+
+
+
+@media screen and (min-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+	
+	
+	article p.town-article img { 
       float : right;
-      width: 50%;
+      width: 250px;
       height: auto;
        /* responsive images */
 }
     picture {
         float : left;
-        width:300%;
+        width:100px;
         height: auto;  
     }
-    
-    ul { display: none;}
-	
-	header img { display: none;}
-    
-   
-    
+
 }
