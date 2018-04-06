@@ -100,20 +100,10 @@ article p.town-article img {
     width:250px; 
     height: auto;
 }
-
 article { 
     text-align: left;
     font-size: 16px;}
 
-section .condition {
-	text-align: left;
-	}
-
-
-section .highlow {
-	text-align: left;
-	
-}
 /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
  /* fill the page in the small/phone view */
 
@@ -135,11 +125,8 @@ footer p, span {
    
     font-size: 15px;
   } 
-picture {
-        float : left;
+picture img {
+        float : right;
         width:100px;
         height: auto;  
     }
-
-.highlow { text-align: ;
-}
