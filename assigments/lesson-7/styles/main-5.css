@@ -4,7 +4,7 @@
 
 *{
 
-padding:.001rem;
+padding:.001rem; 0rem; 1rem;
 }
 
 body {
@@ -41,7 +41,7 @@ header img {
    
     
 }
-header .subheading {
+header .subheading {display: block;
     background-color: #040F0F;
 }
 .topnav {
@@ -92,8 +92,8 @@ main h2 { text-align: left}
 figure .responsive {
     width:100%;
     height: auto;
-	margin-left:.1rem;
-	margin-right:.1rem;
+	margin-left:0rem;
+	margin-right:0rem;
 }
 article p.town-article img {
     float: right;
