@@ -26,7 +26,14 @@ figure .responsive {display: none;
 	   
 picture { float : center; width:70px; height: auto;  
     }
-	  
+
+	   .gallery-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gallery-grid img:hover {
+    box-shadow: 5px 5px 10px gray;
+  }
     
 	
 }
