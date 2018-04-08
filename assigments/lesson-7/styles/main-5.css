@@ -95,14 +95,14 @@ figure .responsive {
 	margin-left:0rem;
 	margin-right:0rem;
 }
-article p.town-article img {
+ .town-article img {
     float: right;
     width:250px; 
     height: auto;
 }
 article { 
     text-align: left;
-    font-size: 16px;}
+    font-size: 14px;}
 
 /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
  /* fill the page in the small/phone view */
@@ -125,8 +125,8 @@ footer p, span {
    
     font-size: 15px;
   } 
-picture img {
-        float : right;
+picture {
+	float: center;
         width:100px;
         height: auto;  
     }

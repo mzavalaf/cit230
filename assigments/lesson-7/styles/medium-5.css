@@ -31,7 +31,7 @@
        /* responsive images */
 }
     picture {
-        float : left;
+        float : center;
         width:100px;
         height: auto;  
     }

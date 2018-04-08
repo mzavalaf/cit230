@@ -24,7 +24,7 @@ section.forecast { display: none; }
 figure .responsive {display: none;
 }
 	   
-picture { float : right; width:70px; height: auto;  
+picture { float : center; width:70px; height: auto;  
     }
 	  
     
