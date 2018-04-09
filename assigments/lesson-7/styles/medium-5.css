@@ -67,6 +67,12 @@
   article p {
     width: 100%;
     margin-bottom: 0;
+	}
+	  .article-image img {
+  width: 100%;
+	height: auto;
+  margin: auto;
+}
   }
 
   .gallery-grid {
