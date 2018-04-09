@@ -132,7 +132,8 @@ picture {
   margin-top: 10px;
   margin-bottom: 5px;
   grid-template-columns: 1fr;
-  grid-gap: 10px 10px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
 }
 
 .gallery-grid img {
