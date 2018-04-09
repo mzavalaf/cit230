@@ -127,6 +127,7 @@ picture {
         height: auto;  
     }
 .gallery-grid {
+  grid-template-columns: 1fr 1fr 1fr;
   display: grid;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -143,3 +144,7 @@ picture {
   margin: 0;
   padding: 0;
 }
+
+  .gallery-grid img:hover {
+    box-shadow: 5px 5px 10px gray;
+  }
