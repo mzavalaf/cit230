@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Franklin | Cities´ Weather Now </title>
+  <meta name="author" content="Mosiah J. Zavala">
+  <meta name="description" content="Franklin | Cities´ Weather Now  CIT 230 BYUI-I">
+   
+  <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/main-5.css" rel="stylesheet">
+  <link href="styles/medium-5.css" rel="stylesheet">
+  <link href="styles/large-5.css" rel="stylesheet">
+  
+</head>
+<body>
+	
+<header>
+    <div class="header-container">
+      <div>
+        <img class="display-small" src="images/cities100px.JPG" alt="Weather Me Logo">
+        <img class="display-medium" src="images/cities100px.JPG" alt="Weather Me Logo">
+        <img class="display-large" src="images/cities100px.JPG" alt="Cities´ Weather Now.">
+      </div>
+      <div>
+        <h1 class="title">Franklin | City</h1>
+        <h3 class="subtitle">We tell you what's going on...</h3>
+      </div>
+    </div>
+  </header>
+
+   <nav>
+    <div>
+      <button onclick="toggleMenu() "style="font-size:30px;">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="franklin-7.html">Franklin</a></li>
+        <li><a href="#">Greenville</a></li>
+        <li><a href="#">Springfield</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>   
+    </div>
+  </nav>
+  <main>
+    <div class="weather-container">
+      <div class="main-image" >
+        <picture>
+          <source srcset="images/franklin-small.jpg" media="(max-width: 500px)">
+          <source srcset="images/franklin-medium.jpg" media="(max-width: 700px)">
+          <source srcset="images/franklin-large.jpg">
+          <img src="images/franklin-large.jpg" alt="Franklin image">
+        </picture>
+		  
+	<div><h3>Franklin Breaks Record</h3></div>
+	<article>
+       <div class="article-image">
+        <img src="images/Franklyn_city.jpg" alt="Article photo">
+      </div>
+      <div><p>
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tincidunt nibh elit, sit amet gravida neque placerat ac. Vestibulum arcu purus, viverra ac consequat quis, ultricies nec neque. Vivamus tortor ipsum, pulvinar ut risus vitae, accumsan blandit justo. Etiam lacinia molestie massa, vel euismod sem aliquam et. Phasellus dignissim massa nisi, eget ultrices justo scelerisque ac. Nullam suscipit felis sit amet congue lacinia. Fusce commodo magna et tortor condimentum pellentesque. Aliquam erat volutpat. Phasellus ac urna metus. Vestibulum aliquet sagittis mauris a efficitur.
+		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique faucibus nisi, eu placerat neque vestibulum sit amet. Donec leo orci, vestibulum eu lorem egestas, venenatis ultricies lacus. Ut placerat, ligula ac viverra tincidunt, sem odio mollis sapien, et euismod quam tortor vitae augue. Praesent at risus quis odio vehicula semper. Donec aliquam ipsum id maximus molestie. Etiam congue libero quis maximus sagittis. Aliquam auctor, sapien a aliquet venenatis, leo metus tincidunt turpis, ut tincidunt mauris dui quis lectus. Phasellus sit amet suscipit lacus, sit amet placerat mi. Donec eleifend sapien a mauris varius semper. Aliquam tortor nisl, scelerisque ac efficitur sed, fringilla ut enim. Nulla facilisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus sed nulla arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse potenti. Duis eu tempus mi, sed imperdiet turpis.</p>
+      </div>
+    </article> 
+      </div>
+      <div class="weather-group">
+        <h2 class="main-title">Franklin</h2>
+        <div class="weather-block">
+          <div class="weather-desc">Sunny</div>
+          <div class="weather-icon-container">
+            <img src="images/ss.jpg" class="weather-icon" alt="Weather icon">
+          </div>
+        </div>
+        <div class="temperature">
+          High:
+          &nbsp;<span id="high-temp"></span>&deg;F
+          <br>
+          Low:
+          &nbsp;<span id="low-temp"></span>&deg;F
+        </div>
+        <div class="precip-wind">
+          Precipitation: 
+          &nbsp;<span id="precipitation"></span>%
+          <br>
+          Wind Speed:
+          &nbsp;<span id="wind-speed"></span>mph
+          &nbsp;<span id="wind-direction"></span>
+          <br>
+          Chill Factor:
+          &nbsp;<span id="chill-factor"></span>&deg;F
+        </div>
+      </div>
+    </div>
+        
+    <section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+        </thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+ </main>
+ <footer>
+    <aside>
+      <p class="footer-bar">&copy; Mosiah J. Zavala All Rights Reserved | Cities´ Weather Now. | Honduras de Allá |<span id="currentdate"> <script src="scripts/currentdate.js">
+	</script></span></p>
+    </aside>
+    
+  </footer>
+
+   <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>
