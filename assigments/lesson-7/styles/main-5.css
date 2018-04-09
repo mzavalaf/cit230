@@ -70,7 +70,7 @@ main {
 
 .header-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   background: #040F0F;
 }
@@ -80,7 +80,7 @@ main {
 }
 .title {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 .subtitle {
   margin: 0;
