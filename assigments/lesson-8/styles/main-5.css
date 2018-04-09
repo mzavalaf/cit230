@@ -70,7 +70,8 @@ main {
 
 .header-container {
   display: flex;
-  justify-content: flex-start;
+  height: 110px;
+  justify-content: space-between;
   align-items: center;
   background: #040F0F;
 }
@@ -279,9 +280,14 @@ footer .footer-bar {
   margin-top: 0.4em;
   text-align: center;
   font-size: 14px;
-  
+	height: 80px;}
 
+.footer-bar{
+	display: flex;
+	justify-content: center;
+   align-items: center;
 }
+
 footer aside .footer-bar{
   background-color: #040F0F;
   padding: 0.5em;
