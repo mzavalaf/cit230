@@ -100,9 +100,6 @@ article {
     text-align: left;
     font-size: 14px;}
 
-/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
- /* fill the page in the small/phone view */
-
 footer {
     background-color: #040F0F;
     margin: .4rem auto;
@@ -147,5 +144,5 @@ picture {
 }
 
   .gallery-grid img:hover {
-    box-shadow: 5px 5px 10px gray;
+    box-shadow: 5px 5px 10px #248232;
   }
