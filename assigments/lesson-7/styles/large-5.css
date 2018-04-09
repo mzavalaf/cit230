@@ -1,5 +1,5 @@
 
-   @media screen and (max-width: 900px) {
+   @media screen and (max-width: 1024px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -28,7 +28,7 @@ picture { float : center; width:70px; height: auto;
     }
 
 	   .gallery-grid {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 
   .gallery-grid img:hover {
