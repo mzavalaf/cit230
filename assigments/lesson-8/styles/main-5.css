@@ -97,6 +97,7 @@ nav {
 nav div {
   display: flex;
   flex-direction: column;
+ align-items: center;
   background-color: #248232;
   margin: 0;
   padding: 0;
@@ -120,7 +121,7 @@ nav ul {
 }
 
 nav ul li {
-  line-height: 1.5em;
+  line-height: 1em;
   margin: 0;
   padding: 0;
   background-color: #248232;
@@ -128,6 +129,7 @@ nav ul li {
 
 nav ul li a {
   display: block;
+text-align: center;
   color: white;
   padding: 14px 14px;
   text-decoration: none;
