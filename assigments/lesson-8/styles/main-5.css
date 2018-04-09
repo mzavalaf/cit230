@@ -71,8 +71,6 @@ main {
 .header-container {
   display: flex;
   height: 110px;
-  justify-content: space-between;
-  align-items: center;
   background: #040F0F;
 }
 .header-container img {
@@ -80,6 +78,8 @@ main {
 
 }
 .title {
+display: flex;
+justify-content: space-around;
   margin: 0;
   font-size: 30px;
 }
