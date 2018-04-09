@@ -22,6 +22,7 @@ h2 {
 
 h3 {
   font-weight: normal;
+text-align: 
   font-size: 14px;
   background-color:#2D3A3A;
   color: #FCFFFC;
@@ -41,7 +42,21 @@ body {
   
 }
 
+header, nav, footer { 
+  margin: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  max-width: 1600px;
+ font-size: 14px;
+}
 
+main { 
+  margin: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  max-width: 1300px;
+ font-size: 14px;
+}
 
 .display-small {
   display: block;
@@ -55,11 +70,14 @@ body {
 
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background: #040F0F;
 }
+.header-container img {
+	width: 100%
 
+}
 .title {
   margin: 0;
   font-size: 18px;
@@ -167,7 +185,7 @@ nav ul.hide {
 }
 
 .weather-desc {
-  font-family: 'Courgette', cursive;
+  font-family: 'Spectral SC', serif;
   font-size: 1em;
   text-align: right;
 }
@@ -194,16 +212,17 @@ nav ul.hide {
 .forecast {
   display: none;
   margin-top: 5px;
+background-color: #2D3A3A;
 }
 
 .forecast h3 {
-  border-style: solid solid none solid;
+  border: 1px transparent;
   text-align: center;
   border-width: 1px;
   font-size: 14px;
   margin: 0;
   padding: 0.5em;
-  background-color: silver;
+  
 }
 
 .forecast table {
@@ -211,18 +230,20 @@ nav ul.hide {
   width: 100%;
   text-align: center;
   border-collapse: collapse;
+ 
 }
 
 .forecast table th, .forecast table td {
-  border: 1px solid;
+  border: 1px transparent;
   border-collapse: collapse;
   padding: 4px;
-  background-color: gainsboro;
+  background-color:  #2D3A3A;
 }
 
 article {
   display: flex;
-  flex-flow: row wrap;
+   flex-wrap: nowrap;
+  justify-content:space-between;
   border: 1px solid;
   margin-top: 0.5em;
   padding: 1em;
@@ -254,7 +275,7 @@ font-size: 14px;
 }
 
 
-footer {
+footer .footer-bar {
   margin-top: 0.4em;
   text-align: center;
   font-size: 14px;
@@ -265,7 +286,7 @@ footer aside .footer-bar{
   background-color: #040F0F;
   padding: 0.5em;
   color: lightgray;
- font-size: 14px;
+ 
 }
 footer aside span {
   font-weight: normal;

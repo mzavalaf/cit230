@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 800px) {
   .display-small {
     display: none;
   }
@@ -45,11 +45,11 @@
   }
 
   .main-image {
-    width: 50%;
+    width: 100%;
   }
 
   .weather-group {
-    width: 50%;
+    width: 100%;
   }
 
   .forecast { 
@@ -61,11 +61,11 @@
   }
 
   .article-image {
-    width: 50%;
+    width: 100%;
   }
 
   article p {
-    width: 50%;
+    width: 100%;
     margin-bottom: 0;
   }
 

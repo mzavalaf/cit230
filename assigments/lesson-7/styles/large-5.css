@@ -44,7 +44,11 @@
     width: auto;
     padding-left: 3em;
   }
-	header, nav, footer { 
+
+
+.footer-bar { font-size: 14px; }
+
+header, nav, footer { 
   margin: auto;
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -59,8 +63,6 @@ main {
   max-width: 1300px;
  font-size: 14px;
 }
-
-	.footer-bar { font-size: 14px; }
 
   .gallery-grid {
     grid-template-columns: 1fr 1fr 1fr;
