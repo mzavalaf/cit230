@@ -15,61 +15,77 @@
   
 </head>
 <body>
-
-  <header>
-    <img src="images/cities100px.JPG" alt="Cities´ Weather Now.">
-    <h1>Franklin | City </h1> 
-    <div class="subheading"> We tell you what's going on... </div>
- </header>
-
-  <!-- site navigation use placeholder references     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a> -->
-  <nav class="topnav" id="myTopnav">
-        
-    	<a href="#" >Home</a>
-    	<a href="https://mzavalaf.github.io/cit230.io/assigments/lesson-7/franklin-7.html#" class="active"> Franklin </a>
-    	<a href="#">Greenville</a>
-    	<a href="#">Springfield</a>
-    	<a href="#">Storm Center</a>
-    	<a href="https://mzavalaf.github.io/cit230.io/assigments/lesson-7/gallery-7.html#">Gallery</a>
-	  <a href="javascript:void(0);" style="font-size:14px; " class="icon" onclick="myFunction()">&#9776;</a>
-      <script src="scripts/barnav.js"></script>	
-  </nav>
-    
-  
-    <figure>
-		<img src="images/city.jpeg" class="responsive" alt="franklin-original">
-    </figure>
 	
-	<main>
-    <h2>Franklin City</h2>
-      <article class="town-article">
-      <h3>Franklin Breaks Record</h3>	 
-    
-	<img src="images/Franklyn_city200.jpg" alt="" width="" height="">
- 
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac libero purus. In hac habitasse platea dictumst. Fusce vel quam ac lacus porttitor malesuada. Aenean interdum ante ut auctor ullamcorper. Pellentesque facilisis, felis aliquet semper commodo, ipsum urna tristique tellus, vel efficitur lacus ex nec metus. Nullam pharetra pharetra eleifend. Donec lacus quam, pellentesque eu porttitor vel, placerat in risus. Ut elementum ac quam at tempus. Fusce facilisis sem nulla, eu rutrum leo pellentesque nec. Sed non aliquam nibh. Aenean condimentum vulputate nisi sit amet feugiat. Morbi hendrerit aliquam orci, nec congue velit viverra eget. Donec a nibh tortor. Curabitur sit amet diam a dolor porta iaculis et vel tellus. Morbi lacinia est vel dictum condimentum.<br>
-		  Proin ac maximus quam, et pretium mi. Nullam aliquam neque id risus suscipit porttitor. Nunc eu ultricies tellus, id malesuada ex. Etiam eu venenatis leo, sit amet porttitor odio. In finibus, elit ac fermentum interdum, lacus nulla pellentesque lacus, a vehicula lectus lectus vitae ligula. Donec sit amet nisi fringilla, feugiat tortor eu, rhoncus nibh. Nam facilisis sagittis erat, vitae tempus dui gravida vitae. Vivamus facilisis, dui eu fringilla commodo, turpis felis dictum justo, vitae consequat est quam vitae ligula. Etiam hendrerit ligula suscipit, volutpat nunc ut, semper nibh. Integer quis turpis commodo, pellentesque erat nec, finibus purus. Vivamus eros ex, molestie nec mauris nec, vestibulum commodo mauris. Quisque ornare placerat rutrum. Donec elementum eleifend velit eu auctor. Integer ante nisl, ultricies sit amet egestas non, volutpat vel ipsum. Pellentesque eget magna lobortis, efficitur massa non, pretium felis.
-		 
-</article>
-<div class="current">
-<h2>Sunny!!</h2>
+<header>
+    <div class="header-container">
+      <div>
+        <img class="display-small" src="images/cities100px.JPG" alt="Weather Me Logo">
+        <img class="display-medium" src="images/cities100px.JPG" alt="Weather Me Logo">
+        <img class="display-large" src="images/cities100px.JPG" alt="Cities´ Weather Now.">
+      </div>
+      <div>
+        <h1 class="title">Franklin | City</h1>
+        <h3 class="subtitle">We tell you what's going on...</h3>
+      </div>
+    </div>
+  </header>
+
+   <nav>
+    <div>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Franklin</a></li>
+        <li><a href="#">Greenville</a></li>
+        <li><a href="#">Springfield</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="gallery-7.html">Gallery</a></li>
+      </ul>   
+    </div>
+  </nav>
+  <main>
+    <div class="weather-container">
+      <div class="main-image" >
         <picture>
-		  <img src="images/ss.jpg" alt="" width="" height="">
-		</picture>
-<h3>Weather Summary</h3>
-<p>
-	High: 90°F Low: 66°F
-	<br>
-    Precipitation: 0%
-	<br>
-	Wind Speed: 5mph SW 
-   
-</p>
-</div>           
-<section class="forecast">
+          <source srcset="images/franklin-small.jpg" media="(max-width: 600px)">
+          <source srcset="images/franklin-medium.jpg" media="(max-width: 1024px)">
+          <source srcset="images/franklin-large.jpg">
+          <img src="images/franklin-large.jpg" alt="Franklin image">
+        </picture>
+      </div>
+      <div class="weather-group">
+        <h2 class="main-title">Franklin</h2>
+        <div class="weather-block">
+          <div class="weather-desc">Sunny</div>
+          <div class="weather-icon-container">
+            <img src="images/ss.jpg" class="weather-icon" alt="Weather icon">
+          </div>
+        </div>
+        <div class="temperature">
+          High:
+          &nbsp;<span id="high-temp"></span>&deg;F
+          <br>
+          Low:
+          &nbsp;<span id="low-temp"></span>&deg;F
+        </div>
+        <div class="precip-wind">
+          Precipitation: 
+          &nbsp;<span id="precipitation"></span>%
+          <br>
+          Wind Speed:
+          &nbsp;<span id="wind-speed"></span>mph
+          &nbsp;<span id="wind-direction"></span>
+          <br>
+          Chill Factor:
+          &nbsp;<span id="chill-factor"></span>&deg;F
+        </div>
+      </div>
+    </div>
+        
+    <section class="forecast">
       <h3>10 Day Forecast</h3>
       <table>
-	    <thead>
+        <thead>
           <tr>
             <th>Day 1</th>
             <th>Day 2</th>
@@ -82,35 +98,47 @@
             <th>Day 9</th>
             <th>Day 10</th>
           </tr>
-		</thead>
+        </thead>
         <tbody>  
           <tr>
-            <td>89&deg; F</td>
-            <td>87&deg; F</td>
-            <td>78&deg; F</td>
-            <td>75&deg; F</td>
-            <td>72&deg; F</td>
-            <td>72&deg; F</td>
-            <td>79&deg; F</td>
-            <td>83&deg; F</td>
-            <td>85&deg; F</td>
-            <td>89&deg; F</td>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
           </tr>
-		</tbody>
+        </tbody>
       </table>
     </section>
       
-</main>
+    <article>
+      <h3>Franklin Breaks Record</h3> 
+      <div class="article-image">
+        <img src="images/Franklyn_city.jpg" alt="Article photo">
+      </div>
+      <p>
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tincidunt nibh elit, sit amet gravida neque placerat ac. Vestibulum arcu purus, viverra ac consequat quis, ultricies nec neque. Vivamus tortor ipsum, pulvinar ut risus vitae, accumsan blandit justo. Etiam lacinia molestie massa, vel euismod sem aliquam et. Phasellus dignissim massa nisi, eget ultrices justo scelerisque ac. Nullam suscipit felis sit amet congue lacinia. Fusce commodo magna et tortor condimentum pellentesque. Aliquam erat volutpat. Phasellus ac urna metus. Vestibulum aliquet sagittis mauris a efficitur. Donec dui est, malesuada eu augue eget, pharetra tempor magna. Mauris a semper lectus. Morbi odio ipsum, dignissim quis felis et, gravida vehicula lectus. Morbi nisl risus, tristique at blandit id, pulvinar ac tortor.
+		Suspendisse sed enim ut orci semper ullamcorper. Duis a mollis ante, vitae facilisis ipsum. Nullam rutrum in ex nec vehicula. Aenean molestie molestie justo nec iaculis. Duis luctus volutpat nulla. Praesent porttitor lacus at purus aliquet luctus. Curabitur maximus mattis eros sit amet rutrum. Donec et est at elit aliquet malesuada. Sed semper nibh a metus consectetur ullamcorper et in sem. Quisque nec ligula vitae nibh placerat congue. Maecenas dapibus efficitur nibh, ut tristique erat euismod in. Nulla venenatis elementum tortor in accumsan. Nullam dapibus est molestie ante cursus lacinia. Praesent porta ultricies blandit. Nulla metus eros, rhoncus sit amet elit et, fringilla molestie odio.
+      </p>
+    </article>      
+  
+  </main>
     
   <footer>
     <aside>
-      
-    </aside>
-    <p class="footer-bar">&copy; Mosiah J. Zavala All Rights Reserved | Cities´ Weather Now. | Honduras de Allá |<span id="currentdate"> <script src="scripts/currentdate.js">
+      <p class="footer-bar">&copy; Mosiah J. Zavala All Rights Reserved | Cities´ Weather Now. | Honduras de Allá |<span id="currentdate"> <script src="scripts/currentdate.js">
 	</script></span></p>
+    </aside>
+    
   </footer>
 
-  
+   <script src="scripts/hamburger.js"></script>
+    <script src="scripts/windchill.js"></script>
   
 
 </body>
