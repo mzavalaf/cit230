@@ -41,21 +41,7 @@ body {
   
 }
 
-header, nav, footer { 
-  margin: auto;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  max-width: 1600px;
- font-size: 14px;
-}
 
-main { 
-  margin: auto;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  max-width: 1300px;
- font-size: 14px;
-}
 
 .display-small {
   display: block;
