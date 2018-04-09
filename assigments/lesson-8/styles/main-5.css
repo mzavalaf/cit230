@@ -133,7 +133,7 @@ text-align: center;
   color: white;
   padding: 14px 14px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 12px;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -312,7 +312,7 @@ footer>p {
   margin-top: 10px;
   margin-bottom: 5px;
   grid-template-columns: 1fr;
-  grid-gap: 10px 10px;
+  grid-gap: 25px 25px;
 }
 
 .gallery-grid img {
