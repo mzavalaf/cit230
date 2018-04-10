@@ -190,7 +190,7 @@ nav ul.hide {
 }
 
 .weather-desc {
-  font-family: 'Courgette', cursive;
+  
   font-size: 1.5em;
   text-align: right;
 }
@@ -436,18 +436,18 @@ label textarea {
 }
 
 input.submitBtn {
-  -webkit-appearance: none; /*remove the apple mobile default styling*/
+  -webkit-appearance: none; 
   color: #FCFFFC;
   border: solid 1px #111;
-  border-radius: 7px;
+  border-radius: 4px;
   width: 90%;
   max-width: 500px;
   margin-top: .5em;
   margin-bottom: 1em;
   font-size: 1.1em;
   padding: .6em;
-  background: #248232; /* Old browsers */
-  box-shadow: 4px 4px 10px  #040F0F;
+  background: #248232;
+ 
 }
 
 input:focus, select:focus, textarea:focus {
