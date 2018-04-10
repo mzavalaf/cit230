@@ -307,7 +307,9 @@ footer>p {
   padding: 0;
 }
 
-/* STORM CENTER FORM STUFF*/
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
 form#stormcenter {
   display: flex;

@@ -148,38 +148,30 @@ nav ul li a:hover {
 nav ul.hide {
   display: none;
 }
-
+-----------------------------------------------------------------------------------------------------------------------
 .weather-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.main-image {
+.weather-data {
   padding-top: 5px;
-  width: 100%;
+  padding-bottom: 5px;
+  display: grid;
+  max-width: 35em;
+  grid-template-columns: 1fr 2fr;
+}
+.weather-data div {
+  outline: 1px solid;
+  margin-top: 1px;
+  margin-left: 1px;
+  padding: 3px 0.5em 3px 0.5em;
 }
 
-.main-image img {
-  width: 100%;
-  margin: auto;
-}
-
-.weather-group {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-top: 5px;
-}
-
-.main-title {
-  align-content: center;
-  font-size: 14px;
-  width: 100%;
-  text-align: center;
-  padding-top: 5px;
-  background-color:  grey;
-}
+.weather-data .header {
+  text-align: right;
+	font-weight: bold;}
 
 .weather-block {
   display: flex;
@@ -198,7 +190,36 @@ nav ul.hide {
 .weather-icon {
   width: 100px;
   height: 100px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
+
+.weather-group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.main-image {
+  padding-top: 5px;
+  width: 100%;
+}
+
+.main-image img {
+  width: 100%;
+  margin: auto;
+}
+
+.main-title {
+  align-content: center;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  padding-top: 5px;
+  background-color:  grey;
+}
+
 
 .temperature {
   width: 100%;
@@ -210,9 +231,6 @@ nav ul.hide {
   text-align: center;
 }
 
-.weather-data {
-  display: block;
-}
 
 .forecast {
   display: none;
@@ -468,6 +486,14 @@ input:required:valid {
   background-color: #fff;
   background-position: 4px -161px;
 }
+
+#about div {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+#about ul {
+	margin-left: 2em;}
 
 #about article {
   display: flex;

@@ -26,7 +26,7 @@
       var myPara3 = document.createElement('p');
       var myPara4 = document.createElement('p');
       var myImg = document.createElement('img')
-      myImg.src = 'images/towns/img' + imgIdx + '.jpg';
+      myImg.src = 'images/img' + imgIdx + '.jpg';
       imgIdx++;
 
       myH2.textContent = towns[i].name;
