@@ -22,7 +22,7 @@ h2 {
 
 h3 {
   font-weight: normal;
-text-align: 
+  text-align: center;
   font-size: 14px;
   background-color:#2D3A3A;
   color: #FCFFFC;
@@ -70,6 +70,9 @@ main {
 
 .header-container {
   display: flex;
+  flex-direction: row;
+justify-content: space-around;
+align-items: center;
   height: 110px;
   background: #040F0F;
 }
@@ -78,16 +81,14 @@ main {
 
 }
 .title {
-display: flex;
-justify-content: space-around;
-  margin: 0;
-  font-size: 30px;
+margin: 0;
+font-size: 30px;
+background-color:#040f0f;
 }
 .subtitle {
   margin: 0;
-  font-family: 'Spectral SC', serif;
-  font-size: 14px;
-background-color:#040F0F;
+ font-size: 14px;
+background:#040f0f;
 }
 
 nav {
