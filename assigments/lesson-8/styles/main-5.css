@@ -135,7 +135,7 @@ nav ul li a {
   padding: 14px 14px;
   text-decoration: none;
   font-size: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px  #248232;;
 }
 
 nav ul li.active a {
@@ -438,17 +438,19 @@ label textarea {
 input.submitBtn {
   -webkit-appearance: none; 
   color: #FCFFFC;
-  border: solid 1px #111;
+  border: solid 1px#248232;
   border-radius: 4px;
   width: 90%;
-  max-width: 500px;
+  max-width: 300px;
   margin-top: .5em;
   margin-bottom: 1em;
   font-size: 1.1em;
   padding: .6em;
   background: #248232;
- 
-}
+	}
+
+input.submitBtn:hover {
+	background-color:  #2BA84A;}
 
 input:focus, select:focus, textarea:focus {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) inset;
