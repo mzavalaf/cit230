@@ -25,6 +25,8 @@
   }
 
   nav button {
+	font-size: 35px;
+    padding: 3px 35px;
     display: none;
   }
 
