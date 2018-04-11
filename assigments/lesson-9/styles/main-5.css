@@ -498,8 +498,9 @@ input:required:valid {
 	margin-left: 2em;}
 
 #about article {
-  display: flex;
-  flex-direction: column;
+  display: inline-flex;
+  flex-direction: row;
+  width: 33%;
 }
 
 #about article div {
