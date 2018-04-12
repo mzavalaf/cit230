@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Springfield | Cities´ Weather Now </title>
+  <meta name="author" content="Mosiah J. Zavala">
+  <meta name="description" content=" The Mountain Spoke Final Proyect  CIT 230 BYUI-I">
+ <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+  <link href="styles/medium.css" rel="stylesheet">
+  <link href="styles/large.css" rel="stylesheet">
+  <script src="scripts/hamburger.js"></script>
+  
+  
+</head>
+<body>
+	
+<header>
+    <div class="header-container">
+      <div>
+        <img class="display-small" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+        <img class="display-medium" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+        <img class="display-large" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+      </div>
+      <div>
+        <h1 class="title">Contact</h1>
+        <h3 class="subtitle">Get a bike, you will not regret it ...</h3>
+      </div>
+    </div>
+  </header>
+
+   <nav>
+    <div>
+      <button onclick="toggleMenu() "style="font-size:40px;">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adventure_tours.html">Adventure Tours</a></li>
+        <li><a href="event.html">Events</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="service.html">Service Center</a></li>
+        <li class="active"><a href="contact.html">Contact us</a></li>
+      </ul>   
+    </div>
+  </nav>
+  <main>
+    <div class="weather-container">
+      <div class="main-image" >
+        <picture>
+          <source srcset="images/springfield_small.jpeg" media="(max-width: 800px)">
+          <source srcset="images/springfield_medium.jpeg" media="(max-width: 1024px)">
+          <source srcset="images/springfielfd_large.jpeg">
+          <img src="images/springfielfd_large.jpeg" alt="Spingfield image">
+        </picture>
+      </div>
+      <div class="weather-group">
+        <h2 class="main-title">Springfield Now!</h2>
+        <div class="weather-block">
+          <div class="weather-desc">Sunny</div>
+          <div class="weather-icon-container">
+            <img src="images/s.jpg" class="weather-icon" alt="Weather icon">
+          </div>
+        </div>
+         <div class="temperature">
+          High:
+          &nbsp;<span id="high-temp"></span>&deg;F
+          <br>
+          Low:
+          &nbsp;<span id="low-temp"></span>&deg;F
+        </div>
+        <div class="precip-wind">
+          Precipitation: 
+          &nbsp;<span id="precipitation"></span>%
+          <br>
+          Wind Speed:
+          &nbsp;<span id="wind-speed"></span>mph
+          &nbsp;<span id="wind-direction"></span>
+          <br>
+          Chill Factor:
+          &nbsp;<span id="chill-factor"></span>&deg;F
+        </div>
+      </div>
+    </div>
+        
+    <section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+        </thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+ </main>
+	<article>
+      <h3>Springfield History</h3> 
+      <div class="article-image">
+        <img src="images/sprinfield_article.jpeg" alt="Article photo">
+      </div>
+      <p>
+       William Pynchon and a company of six men from Roxbury, a town near Boston, established Springfield in 1636 at the junction of the Agawam and Connecticut Rivers. Pynchon bought from the Indians the land that now contains the towns of Agawam, West Springfield, Longmeadow, and the city of Springfield for the purpose of establishing a trading and fur-collecting post. In 1641, the town of Springfield, named in honor of Pynchon's English birthplace, was incorporated. Springfield officially became a city in May of 1852.
+       Springfield's location at the crossroads of New England is the most significant reason for its progress and continuing economic success. The Connecticut River served as an easy and economical means of transportation north and south for early settlers. Midway between New York and Boston and on the road between New York and Canada, Springfield is ideally located for travel in all directions.
+       From its fur-trading and agricultural beginnings, Springfield gradually grew into a thriving industrial community. In the eighteenth century, the power of the Connecticut River was harnessed. Mills of all varieties grew up and a skilled labor force came into being. Because of the area's location and technological advancements, particularly in metal crafts, the United States Armory was located here in 1794, resulting in further industrial development
+      </p>
+    </article> 
+ <footer>
+    <aside>
+		<span class="footer-bar">&copy; Mosiah J. Zavala | Cities´ Weather Now. | Honduras de Allá | <script src="scripts/currentdate.js"></script></span>
+	
+    </aside>
+    
+  </footer>
+
+   <script src="scripts/windchill.js"></script>
+</body>
+</html>

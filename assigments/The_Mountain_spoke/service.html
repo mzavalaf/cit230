@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Service Center | The Mountain Spoke </title>
+  <meta name="author" content="Mosiah J. Zavala">
+ <meta name="description" content=" The Mountain Spoke Final Proyect  CIT 230 BYUI-I">
+  <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+  <link href="styles/medium.css" rel="stylesheet">
+  <link href="styles/large.css" rel="stylesheet">
+  <script src="scripts/hamburger.js"></script>
+  
+  
+</head>
+<body>
+	
+<header>
+    <div class="header-container">
+     <div>
+        <img class="display-small" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+        <img class="display-medium" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+        <img class="display-large" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+      </div>
+      <div>
+         <h1 class="title"> Service Center </h1>
+        <h3 class="subtitle">Get a bike you will not regret it... </h3>
+      </div>
+    </div>
+  </header>
+
+   <nav>
+    <div>
+      <button onclick="toggleMenu() "style="font-size:40px;">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="adventure_tours.html">Adventure Tours</a></li>
+        <li><a href="event.html">Events</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li class="active"><a href="service.html">Service Center</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>   
+    </div>
+  </nav>
+  <main>
+    <div class="weather-container">
+      <div class="main-image" >
+        <picture>
+          <source srcset="images/greenville_small.jpeg" media="(max-width: 800px)">
+          <source srcset="images/greenville_medium.jpeg" media="(max-width: 1024px)">
+          <source srcset="images/greenville_large.jpeg">
+          <img src="images/greenville_large.jpeg" alt="Greenville image">
+        </picture>
+	</div>
+      <div class="weather-group">
+        <h2 class="main-title">Greenville Now!</h2>
+        <div class="weather-block">
+          <div class="weather-desc">Sunny</div>
+          <div class="weather-icon-container">
+            <img src="images/s.jpg" class="weather-icon" alt="Weather icon">
+          </div>
+        </div>
+         <div class="temperature">
+          High:
+          &nbsp;<span id="high-temp"></span>&deg;F
+          <br>
+          Low:
+          &nbsp;<span id="low-temp"></span>&deg;F
+        </div>
+        <div class="precip-wind">
+          Precipitation: 
+          &nbsp;<span id="precipitation"></span>%
+          <br>
+          Wind Speed:
+          &nbsp;<span id="wind-speed"></span>mph
+          &nbsp;<span id="wind-direction"></span>
+          <br>
+          Chill Factor:
+          &nbsp;<span id="chill-factor"></span>&deg;F
+        </div>
+      </div>
+    </div>
+        
+    <section class="forecast">
+      <h3>10 Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Day 1</th>
+            <th>Day 2</th>
+            <th>Day 3</th>
+            <th>Day 4</th>
+            <th>Day 5</th>
+            <th>Day 6</th>
+            <th>Day 7</th>
+            <th>Day 8</th>
+            <th>Day 9</th>
+            <th>Day 10</th>
+          </tr>
+        </thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+ </main>
+	<article>
+      <h3>Greenville History</h3> 
+      <div class="article-image">
+        <img src="images/greenville_article.jpeg" alt="Article photo">
+      </div>
+      <p>
+       The city of Greenville is situated on land that was onceCherokee hunting ground, closed to colonists’
+	   settlement. About 1770, Richard Pearis, an Indian trader from Virginia who was living with a chief’s daughter, received about 100,000 acres of hunting lands from the Cherokees. Pearis set up a plantation on the banks of the Reedy River in what is now downtown Greenville.
+       His Great Plains Plantation included a saw mill, grist mill, and stables together with a trading post. When the Revolutionary War came, the struggle in the South Carolina back country between Tories and Patriots was fierce. Pearis threw his support to the Tories and their Cherokee allies, and together they terrorized upstate Patriots. In retaliation, a Patriot troop raided his plantation, burned his mill and home, and briefly jailed him in Charleston. He never returned to the upstate, but he left his name on Paris Mountain
+      </p>
+    </article> 
+ <footer>
+    <aside>
+		<span class="footer-bar">&copy; Mosiah J. Zavala | Cities´ Weather Now. | Honduras de Allá | <script src="scripts/currentdate.js"></script></span>
+	
+    </aside>
+    
+  </footer>
+
+   <script src="scripts/windchill.js"></script>
+</body>
+</html>

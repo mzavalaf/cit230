@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> The Mountain Spoke </title>
+  <meta name="author" content="Mosiah J. Zavala">
+  <meta name="description" content=" The Mountain Spoke Final Proyect  CIT 230 BYUI-I">
+  <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
+  <link href="styles/medium.css" rel="stylesheet">
+  <link href="styles/large.css" rel="stylesheet">
+	
+  <script src="scripts/hamburger.js"></script>
+   
+</head>
+<body>
+	
+<header>
+    <div class="header-container">
+      <div>
+        <img class="display-small" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+        <img class="display-medium" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+        <img class="display-large" src="images/The_Mountain_Spoke_Logo100.JPG" alt="The Mountain Spoke.">
+      </div>
+      <div>
+        <h1 class="title"> The Mountain Spoke </h1>
+        <h3 class="subtitle">Get a bike, You will not regret it ... </h3>
+      </div>
+    </div>
+  </header>
+
+   <nav>
+    <div>
+      <button onclick="toggleMenu();">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="adventure_tours.html">Adventure Tours</a></li>
+        <li><a href="event.html">Events</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="service.html">Our Services</a></li>
+        <li><a href="contact.html">Contact us</a></li>
+      </ul>   
+    </div>
+  </nav>
+	<br>
+  <main>
+	  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+       <img src="images/slide1.jpeg" style="width:100%"> 
+  </div>
+  <div class="mySlides fade">
+    <img src="images/slide2.jpeg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="images/slide3.jpeg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+	 	  <br>
+     <section id="about"></section>
+  </main>
+    
+  <footer>
+    <aside>
+		<span class="footer-bar">&copy; Mosiah J. Zavala | The Mountain Spoke | Honduras de Allá | <script src="scripts/currentdate.js"></script></span>
+	
+    </aside>
+    
+  </footer>
+	
+<script src="scripts/index.js"></script>
+</body>
+</html>
