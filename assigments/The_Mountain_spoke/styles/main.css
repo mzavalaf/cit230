@@ -150,6 +150,9 @@ nav ul.hide {
   display: none;
 }
 
+section { background-color:#4b5842;
+  font-family: 'Comfortaa', cursive;}
+
 .weather-container {
   display: flex;
   flex-flow: row wrap;
@@ -302,7 +305,8 @@ footer .footer-bar {
   margin-top: 0.4em;
   text-align: center;
   font-size: 14px;
-	height: 80px;}
+	height: 80px;
+ font-family: 'Comfortaa', cursive;}
 
 .footer-bar{
 	display: flex;
@@ -489,39 +493,6 @@ input:focus:invalid {
 input:required:valid {
   background-color: #fff;
   background-position: 4px -161px;
-}
-
-#about div {
-  width: 100%;
-  margin-bottom: 0;
-}
-
-#about ul {
-	margin-left: 2em;}
-
-
-
-#about article {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-#about article div {
-  width: 100%;
-}
-
-#about article div p {
-  width: 100%;
-}
-
-#about article div img {
-  width: 100%;
-  padding-top: 1em;
-}
-
-#about-one ul {
-  padding-left: 2em;
 }
 
 /* Slideshow container */
