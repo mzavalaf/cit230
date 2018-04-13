@@ -23,7 +23,7 @@ h3 {
   font-weight: normal;
   text-align: center;
   font-size: 14px;
-  background-color:#2D3A3A;
+  background-color:black;
   color: #FCFFFC;
 }
 
@@ -73,7 +73,7 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 110px;
+  height: 90px;
   background: #8fb339;
 }
 .header-container img {
@@ -140,7 +140,7 @@ nav ul li a {
 }
 
 nav ul li.active a {
-  background-color:#b7ce63;
+  background-color:black;
 }
 nav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -271,7 +271,8 @@ article {
   border: 0px solid;
   margin-top: 0.5em;
   padding: 1em;
-  background-color:#daddd8;
+  background-color:#4b5842;
+  font-family: 'Comfortaa', cursive;
 }
 
 article h3 {
@@ -293,7 +294,7 @@ article h3 {
 article p {
   width: 100%;
   margin-bottom: 0;
- background: #daddd8;
+ background: #4b5842;
 }
 
 
