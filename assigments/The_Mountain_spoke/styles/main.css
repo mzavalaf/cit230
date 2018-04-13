@@ -234,37 +234,6 @@ nav ul.hide {
 }
 
 
-.forecast {
-  display: none;
-  margin-top: 5px;
-}
-
-.forecast h3 {
-  border-style: solid solid none solid;
-  border-color: grey;
-  text-align: center;
-  border-width: 1px;
-  font-size: 14px;
-  margin: 0;
-  padding: 0.5em;
-  background-color: darkgrey;
-}
-
-.forecast table {
-  border: 1px;
-  width: 100%;
-  text-align: center;
-  border-collapse: collapse;
-}
-
-.forecast table th, .forecast table td {
-  border: 1px solid;
-  border-collapse: collapse;
-  padding: 4px;
-  background-color: grey;
-  border-color: grey;
-}
-
 article {
   display: flex;
   flex-flow: row wrap;
@@ -291,10 +260,28 @@ article h3 {
   margin: auto;
 }
 
-article p {
+.tours {
   width: 100%;
   margin-bottom: 0;
  background: #4b5842;
+}
+
+.tours table {
+  width: 100%;
+  border-collapse: collapse;
+ 
+}
+
+.tours > table td {
+  border: 1px solid #c7d59f;
+  text-align: left;
+   color: #4b5842;
+  padding: 5px;
+ background: #c7d59f;
+}
+
+.tours > table tr:nth-child(even) {
+  background-color: black;
 }
 
 

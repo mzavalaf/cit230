@@ -69,9 +69,10 @@ fieldset {
     width: 48%;
   }
 	
-#about article {
-  display: inline-flex;
-  flex-direction: row;
-  width: 33%;
+.tours {
+  width: 50%;
+  margin-bottom: 0;
+ background: #4b5842;
 }
+
 }

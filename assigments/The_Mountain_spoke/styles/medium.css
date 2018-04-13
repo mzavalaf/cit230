@@ -79,9 +79,4 @@
     grid-template-columns: 1fr 1fr;
   }
 
-#about article {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
 }
