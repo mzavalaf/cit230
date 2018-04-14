@@ -375,7 +375,7 @@ label textarea {
 }
 
 input.submitBtn:hover {
-	background-color:  #b7ce63;}
+	background-color:  #8fb339;}
 
 input:focus, select:focus, textarea:focus {
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) inset;
