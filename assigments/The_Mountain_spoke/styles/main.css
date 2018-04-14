@@ -222,9 +222,9 @@ nav ul.hide {
   background-color:  grey;
 }
 
-section { background: #4b5842;
+section { font-size: 16px;
 font-family: 'Comfortaa', cursive;
-font-size: 16px;}
+color: #4b5842; }
 
 .temperature {
   width: 100%;
