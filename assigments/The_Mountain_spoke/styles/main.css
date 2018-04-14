@@ -23,8 +23,9 @@ h3 {
   font-weight: normal;
   text-align: center;
   font-size: 14px;
-  background-color:black;
-  color: #FCFFFC;
+  font-family: 'Comfortaa', cursive;
+   background:#4b5842;
+	color: #daddd8;
 }
 
 p {
@@ -150,16 +151,6 @@ nav ul.hide {
   display: none;
 }
 
-
-.main-image {
-  padding-top: 5px;
-  width: 100%;
-}
-
-.main-image img {
-  width: 100%;
-  margin: auto;
-}
 
 .main-title {
   align-content: center;
@@ -508,4 +499,25 @@ input:required:valid, select:required:valid {
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+table {
+   
+   font-family: 'Comfortaa', cursive;
+    color:#4b5842;
+	border-collapse: collapse;
+    width: 100%;
+}
+
+table h3{ font-family: 'Comfortaa', cursive;
+    background-color:#4b5842;}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
