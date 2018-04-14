@@ -375,3 +375,8 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+iframe {
+  width: 100%;
+  height: 450px;
+  border: none;
