@@ -224,6 +224,12 @@ article h3 {
   background-color: black;
 }
 
+figure {
+  color:#4b5842;
+  font-family: 'Comfortaa', cursive;
+}
+
+figcaption h3 { background-color:#4b5842; }
 
 footer .footer-bar {
   margin-top: 0.4em;
@@ -273,7 +279,6 @@ footer>p {
   margin: 0;
   padding: 0;
 }
-------------------------------------------------------------
 .event-intro {
   display: grid;
   grid-template-columns: 1fr;
@@ -290,9 +295,11 @@ article {
 /* STORM CENTER FORM STUFF*/
 
 #eventRegistration {
-  display: grid;
+  display: flex;
+  justify-content: center;
   grid-template-columns: 1fr;
   grid-row-gap: 10px;
+
 }
 
 fieldset {
@@ -301,6 +308,7 @@ fieldset {
   background-color: #4b5842;
   border: #3d372d solid 1px;
   box-shadow: 5px 5px 20px #cccccc;
+
 }
 
 label {
@@ -501,4 +509,3 @@ input:required:valid, select:required:valid {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
