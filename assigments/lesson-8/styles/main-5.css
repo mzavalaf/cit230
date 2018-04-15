@@ -468,3 +468,10 @@ input:required:valid {
   background-color: #fff;
   background-position: 4px -161px;
 }
+
+section, div {margin: 0px;}
+.form {background-color:none; padding: 0px; border:1px solid #444;}
+
+div {background-color:#eee; padding: 1rem; border:1px solid #444;}
+
+#aNum {border:1px solid #bbeedd; background-color:#aaffcc; text-align:center;}

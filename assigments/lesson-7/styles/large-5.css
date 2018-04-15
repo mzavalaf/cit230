@@ -9,7 +9,7 @@
     display: block;
   }
   .title {
-    font-size: 35px;
+    font-size: 30px;
   }
   .subtitle {
     font-size: 14px;
@@ -72,4 +72,5 @@ main {
   .gallery-grid img:hover {
     box-shadow: 5px 5px 10px gray;
   }
+
 }
