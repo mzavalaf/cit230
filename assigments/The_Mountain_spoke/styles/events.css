@@ -53,7 +53,7 @@ label textarea {
   padding: .5em .3em .5em 2em;
   margin-right: -2em;
   border: solid 1px #b0aaa0;
-  border-radius: 5px;
+  border-radius: 1px;
   font-size: .9em;
   width: 100%;
   background-image: url(../images/ico_validation.png);
@@ -72,12 +72,13 @@ label textarea {
 #eventRegistrationSubmit {
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: center;
+  
 }
 
 .submitBtn {
   -webkit-appearance: none; /*remove the apple mobile default styling*/
   color: #fff;
+	border: none;
   border-radius: 1px;
   width: 90%;
   max-width: 300px;
