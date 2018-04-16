@@ -1,4 +1,4 @@
-var acc = $('.accordion');
+var acc = $('.sales');
 
   acc.each(function() {
     $(this).click(function() {

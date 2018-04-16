@@ -1,4 +1,4 @@
-.accordion {
+.sales {
   font-family: 'Comfortaa', cursive;
   background-color:#daddd8;
   color: #4b5842;
@@ -11,12 +11,12 @@
   transition: 0.4s;
   }
 
-.activePanel, .accordion:hover {
+.activePanel, .sales:hover {
   background-color: #c7d59f
 ;
 }
 
-.accordion:after {
+.sales:after {
   content: '\2BC6';
   color: #777;
   font-weight: bold;
@@ -28,7 +28,7 @@
   content: "\2BC5";
 }
 
-.accordionPanel {
+.salesPanel {
   display: none;
   padding: 0 18px;
   background-color: #daddd8;
@@ -45,7 +45,7 @@
   background-color: #daddd8;
   color: #4b5842;}
 
-.accordionPanel img {
+.salesPanel img {
   max-width: 95%;
   margin: auto;
   padding-top: 10px;
