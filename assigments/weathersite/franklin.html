@@ -78,11 +78,20 @@
           Wind Speed:
           &nbsp;<span id="wind-speed"></span>mph
           &nbsp;<span id="wind-direction"></span>
-          <br>
-          Chill Factor:
-          &nbsp;<span id="chill-factor"></span>&deg;F
-        </div>
-      </div>
+          <br><br>
+          </div>
+	    <div class="form">
+		 <h1>Enter Temperature in Fahrenheit and Wind Speed</h1>
+          Temperature:<br><input type="text" id="tempInputBox" size="5" style="text-align: center">
+          <br><br>
+          Wind Speed: <br><input type="text" id="wSpeedInputBox" size="5" style="text-align: center">
+          <br><br>
+          <button type="button" onclick="doInputOutput()" >Get Wind Chill Factor</button>
+          <br><br>
+          <div id="output"></div>
+	</div>
+<br>
+</div>
     </div>
         
     <section class="forecast">

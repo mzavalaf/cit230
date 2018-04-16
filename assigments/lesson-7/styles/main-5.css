@@ -323,8 +323,6 @@ footer>p {
   padding: 0;
 }
 
-section, div {}
-
 .form h1 { background-color:#2D3A3A 
 }
 
@@ -338,7 +336,3 @@ color:#FCFFFC;
 border: none}
 
 
-
-font-size: 14px;
-  background-color:#2D3A3A;
-  color: #FCFFFC;}
