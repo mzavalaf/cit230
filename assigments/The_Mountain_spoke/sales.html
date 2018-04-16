@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Poller+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
   <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/accordion.css" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
   <link href="styles/medium.css" rel="stylesheet">
   <link href="styles/large.css" rel="stylesheet">
@@ -43,60 +44,45 @@
     </div>
   </nav>
    <main>
-     <div class="gallery-grid">
-      <figure>
-        <img src="images/img22.jpg" alt="Img 1">
-        <figcaption>
-         <h3>Description</h3>
-        <ul>
-          <li>Wheel size: 24 inch</li>
-          <li>Target group: Unisex</li>
-          <li>Equipment Type: BMX Bike</li>
-          <li>Product Dimensions: 104 x 162 x 31 cm</li>
-          <li>Color: Blue &amp; Red</li>
-          <li>Front and rear brakes</li>
-          <li>Kick stand</li>
-          <li>Comfort grip handle bars</li>
-          <li>Frame Material Type: Steel</li>
-          <li>Price: $99.99</li>
-        </ul>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="images/img11.jpg" alt="Img 2">
-        <figcaption>
-        <h3>Description</h3>
-        <ul>
-          <li>Wheel size: 26 inch</li>
-          <li>Target group: Unisex, 12 years and above</li>
-          <li>Equipment Type: Folding Mountain Bike</li>
-          <li>Product Weight: 19kg</li>
-          <li>Color: Yellow</li>
-          <li>Frame Material Type: Stainless Steel</li>
-          <li>Price: $129.99</li>
-        </ul>
-        </figcaption>
-      </figure>
-      <figure>
-        <img src="images/img33.jpg" alt="Img 3">
-        <figcaption>
-          <h3>Description</h3>
-        <ul>
-          <li>Wheel size: 24 inch</li>
-          <li>Target group: Unisex</li>
-          <li>Equipment Type: BMX Bike</li>
-          <li>Product Dimensions: 104 x 162 x 31 cm</li>
-          <li>Color: Black </li>
-          <li>Front and rear brakes</li>
-          <li>Kick stand</li>
-          <li>Comfort grip handle bars</li>
-          <li>Frame Material Type: Steel</li>
-          <li>Price: $99.99</li>
-        </ul>
-        </figcaption>
-      </figure>
+ 
+  <h3> Choose your Mountain bike.</h3>
+  <button class="accordion"> Rocky Mountain Thunderbolt 750 - 2017</button>
+  <div class="accordionPanel">
+    <div class="panelContent">
+      <img src="images/img33.jpg" alt=" Rocky Mountain Thunderbolt 750 - 2017 ">
+      <div>
+        <h3>Details</h3>
+        <p>
+         The full-suspension Thunderbolt 750 is an aggressive XC trail machine ready for all of your fast-paced singletrack adventures. Responsive 27.5-inch aluminum wheels wrapped in Maxxis tires that grip and rip, while the Fox 34 Float Performance fork and Float DPS Performance rear shock offer plush traction for hammering through rock gardens at speed. Shimano SLX hydraulic disc brakes put the power down for precise control through turns and down techy sections of trail, while the sweet 1x11-speed SLX/Race Face drivetrain puts lightweight efficiency at the ready. A solid mix of Rocky Mountain aluminum cockpit components let you know the Thunderbolt takes trail riding seriously, and with Ride-9 adjustable suspension system, you'd better prepare for one electrifying ride. 
+        </p>
+      </div>
     </div>
-  </main> 
+  </div>
+  <button class="accordion"> Rocky Mountain Fusion 940 - 2017</button>
+  <div class="accordionPanel">
+    <div class="panelContent">
+      <img src="images/img11.jpg" alt=" Rocky Mountain Fusion 940 - 2017">
+      <div>
+        <h3>Details</h3>
+        <p>
+          Whether you're enjoying the great outdoors on flowy ribbons of singletrack or ditching the car on bike-to-work day, the Fusion 920 makes every experience fun and adventurous. Rocky Mountain started with lightweight aluminum to create a strong and responsive frame, then tweaked the geometry to put you in a comfy riding position that encourages longer, satisfying excursions. 29-inch wheels paired to grippy Maxxis tires smooth out uneven terrain, and the RockShox suspension fork takes the bite out of bumpy trails. And, with 18 gears to get you up and over any hill, you'll appreciate the hardworking Shimano hydraulic disc brakes to keep you under control on the way down. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <button class="accordion"> Rocky Mountain Thunderbolt 750 MSL - 2017 </button>
+  <div class="accordionPanel">
+    <div class="panelContent">
+      <img src="images/img22.jpg" alt=" Rocky Mountain Thunderbolt 750 MSL - 2017 ">
+      <div>
+        <h3>Details</h3>
+        <p>
+          Sometimes it's easy to get lost in all the names and categories of full-suspension bikes, so we'll make this one easy for you: The full-suspension Thunderbolt 750 MSL is made for serious singletrack slaying. Starting with the supreme handling capabilities of 27.5-inch wheels wrapped in beefy Maxxis rubber, adding stout and precise handling from the Fox 34 Float Performance 130mm fork and big-hit capability from the Fox Float DPS EVOL Performance rear shock, and finishing with custom tuning options provided by Rocky Mountain's Ride-9 adjustable suspension system, this aggressive XC machine has the agility to tackle technical trail while maintaining an ability to rack up the miles with composure and efficiency. Shimano supplies the get-up-and-go with an SLX/XT 1x11 drivetrain and brings things to a screeching halt through powerful SLX hydraulic disc brakes paired to 180mm rotors. And, when things get really gnarly, you'll love the ability to get low at the push of a button with RockShox' Reverb Stealth dropper seatpost. Sturdy aluminum cockpit components from Rocky Mountain complete this lean and muscular rig that's ready for all your dirt-bound human-powered adventures. 
+        </p>
+      </div>
+    </div>
+  </div>
+</main>
  <footer>
     <aside>
 		<span class="footer-bar">&copy; Mosiah J. Zavala |  The Mountain Spoke | Honduras de Allá | <script src="scripts/currentdate.js"></script></span>
@@ -104,7 +90,7 @@
     </aside>
   </footer>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="scripts/accordion.js"></script>
 
 

@@ -135,7 +135,7 @@ nav ul li {
 }
 
 nav ul li a {
-  display: block;
+  display: flex;
   text-align: center;
   color: white;
   padding: 14px 14px;
@@ -149,7 +149,7 @@ nav ul li.active a {
   background-color:black;
 }
 nav ul li a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #8fb339;
 }
 
 nav ul.hide {
@@ -339,7 +339,7 @@ article {
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #4b5842;
 }
 
 /* Fading animation */
