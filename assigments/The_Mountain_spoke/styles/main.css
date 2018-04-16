@@ -142,6 +142,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 12px;
   border: none;
+	background-color: #4b5842;
 }
 
 nav ul li.active a {
