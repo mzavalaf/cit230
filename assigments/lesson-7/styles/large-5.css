@@ -24,13 +24,13 @@
     width: 100%;
   }
 
-  .weather-group {
+  .Wt-group {
     display: inline-flex;
     width: 100%;
     align-items: center;
   }
 
-  .weather-block {
+  .Wt-block {
     width: auto;
   }
 
