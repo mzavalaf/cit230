@@ -67,30 +67,28 @@
     </article> 
       </div>
       <div class="wt-group">
-        <h2 class="main-title">Franklin Now!</h2>
+        <span id="place"> City, State </span>
         <div class="wt-block">
-          <div class="wt-desc">Sunny</div>
-          <div class="wt-icon-container">
-            <img src="images/s.jpg" class="weather-icon" alt="Weather icon">
-          </div>
+          <div class="wt-desc"><img id="w_icon" scr="" alt="current weather">
+           </div>
         </div>
          <div class="temperature">
-          High:
-          &nbsp;<span id="high-temp"></span>&deg;F
+          Fahrenheit:
+          &nbsp;<span id="currentTempFa"></span>&deg;F
           <br>
-          Low:
-          &nbsp;<span id="low-temp"></span>&deg;F
+		   Centigrade:
+           &nbsp;<span id="currentTempCen"></span>&deg;C
         </div>
         <div class="precip-wind">
-          Precipitation: 
-          &nbsp;<span id="precipitation"></span>%
+           Currently: 
+          &nbsp;<span id="day"></span>
           <br>
           Wind Speed:
-          &nbsp;<span id="wind-speed"></span>mph
+          &nbsp;<span id="wind-speed"></span>  mph
           &nbsp;<span id="wind-direction"></span>
           <br>
           Chill Factor:
-          &nbsp;<span id="chill-factor"></span>&deg;F
+          &nbsp;<span id="chill-factor"></span>&deg;  F
         </div>
       </div>
     </div>
@@ -114,16 +112,16 @@
         </thead>
         <tbody>  
           <tr>
-            <td>89&deg;F</td>
-            <td>87&deg;F</td>
-            <td>78&deg;F</td>
-            <td>75&deg;F</td>
-            <td>72&deg;F</td>
-            <td>72&deg;F</td>
-            <td>79&deg;F</td>
-            <td>83&deg;F</td>
-            <td>85&deg;F</td>
-            <td>89&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
+            <td>&deg;F</td>
           </tr>
         </tbody>
       </table>
@@ -138,5 +136,6 @@
   </footer>
 
    <script src="scripts/windchill.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
 </body>
 </html>

@@ -149,6 +149,7 @@ nav ul.hide {
   margin-top: 5px;
 }
 
+
 .main-title {
   font-size: 2em;
   width: 100%;
@@ -166,9 +167,11 @@ nav ul.hide {
 
 .wt-desc {
   font-family: 'Courgette', cursive;
-  font-size: 1.5em;
+  font-size: 45px;
   text-align: right;
 }
+
+.wt-desc img { width: 50px; }
 
 .wt-icon {
   width: 100px;
