@@ -388,7 +388,7 @@ iframe {
   height: 450px;
 	border: none;}
 
-form#stormcenter {
+form#Contactcenter {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -417,14 +417,14 @@ legend span {
 	background: #040F0F;
 }
 
-label, .dangerlevel, .stormseverity {
+label, .dangerlevel, .Contactseverity {
   display: block;
   margin: 0.5em;
 }
 
 label span,
 .dangerlevel span,
-.stormseverity span {
+.Contactseverity span {
   display: block;
   font-size: 0.9em;
   color: #FCFFFC;
@@ -435,7 +435,7 @@ background-color:#4b5842
 
 label input, label select,
 label textarea,
-.stormseverity div,
+.Contactseverity div,
 .dangerlevel div {
   background-color:#FCFFFC;
   color: #040F0F;
@@ -487,16 +487,16 @@ label textarea {
   height: auto;
 }
 
-.stormseverity div {
+.Contactseverity div {
   display: flex;
   align-items: center;
 }
 
-.stormseverity input {
+.Contactseverity input {
   width: 90%;
 }
 
-.stormseverity div span {
+.Contactseverity div span {
   width: 10%;
   text-align: center;
   padding: 0;
