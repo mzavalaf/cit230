@@ -52,101 +52,74 @@
 
 	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9314410354546!2d-111.0929061849946!3d45.672276627556876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523750780534" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
   
-
-    <form id="stormcenter" action="thanks.html">
-      <fieldset>  
-        <legend><span>Contact Information</span></legend>
-        <label>
-          <span>Full Name:</span>
-          <input 
-            type="text"
-            name="fullname"
-            value=""
-            placeholder="Full Name"
-            autofocus
-            title="Please provide full name"
-            pattern="[a-zA-Z -._]{5,99}" required
-          >
-        </label>
-        <label>
-          <span>Email:</span>
-          <input 
-            type="email"
-            name="email"
-            value=""
-            placeholder="email@example.com"
-            title="Please provide email address"
-            required
-          >
-        </label>
-        <label>
-          <span>Phone:</span>
-          <input 
-            type="tel"
-            name="phonenumber"
-            value=""
-            placeholder="50427782217"
-            title="Please provide phone number"
-            pattern="[0-9]{10,20}" 
-            required
-          >
-        </label>
-        <label>
-          <span>Zip Code:</span>
-          <input 
-            type="number"
-            name="zipcode"
-            value=""
-            placeholder="11101"
-            title="Please provide ZIP code"
-            required
-          >
-        </label>
-      </fieldset>
-      <fieldset>
-        <legend><span> Other Information</span></legend>
-        <label>
-          <span>Birth Date:</span>
-          <input 
-            type="date"
-            name="date"
-            title="Please provide your birth date"
-          >
-        </label>
-        <label>
-          <span>State or Coutry:</span>
-          <input 
-            type="text"
-            name="stormtype"
-            title="Please provide your state or country"
-            list="stormtypes"
-          >
-          <datalist id="stormtypes">
-            <option value="Alabama"></option>
-            <option value="Alaska"></option>
-            <option value="Arkanzas"></option>
-            <option value="Arizona"></option>
-            <option value="California"></option>
-			<option value="Etc..."></option>
-          </datalist>
-        </label>
-        
-        <label>
-          <span>Comments:</span>
-          <textarea 
-            name="comments"
-            cols="50"
-            rows="5"
-            placeholder="Please enter any additional information."
-          ></textarea>
-        </label>
-      </fieldset>
-      <input type="submit" class="submitBtn" value="Register">
-      <input 
-        type="hidden"
-        value="Storm Information"
-        name="subject"
-      >
+<h2>Registration Form</h2>
+    <form action="thanks.html">
+      <div id="eventRegistration">
+        <fieldset>  
+          <label>
+            <span>Full Name:</span>
+            <input 
+              type="text"
+              name="fullname"
+              value=""
+              placeholder="Full Name"
+              title="Please provide full name"
+              pattern="[a-zA-Z -._]{5,99}" required
+            >
+          </label>
+          <label>
+            <span>Email:</span>
+            <input 
+              type="email"
+              name="email"
+              value=""
+              placeholder="email@example.com"
+              title="Please provide email address"
+              required
+            >
+          </label>
+          <label>
+            <span>Phone:</span>
+            <input 
+              type="tel"
+              name="phonenumber"
+              value=""
+              placeholder="50427782217"
+              title="Please provide phone number"
+              pattern="[0-9]{10,20}" 
+              required
+            >
+          </label>
+        </fieldset>    
+        <fieldset>
+          <label>
+            <span>Date of Birth:</span>
+            <input 
+              type="date"
+              name="dateOfBirth"
+              title="Please provide date of birth"
+              required
+            >
+          </label>
+          <label>
+            <span>Comments:</span>
+            <textarea 
+              name="comments"
+              cols="50"
+              rows="5"
+              placeholder="Please enter any additional information."
+            ></textarea>
+          </label>
+        </fieldset>
+      </div>
+      <div id="eventRegistrationSubmit">
+        <input type="submit" class="submitBtn" value="Register">
+        <input 
+          type="hidden"
+          value="Event Registration"
+          name="subject"
+        >
+      </div>
     </form>
  </main>
 	<article>
