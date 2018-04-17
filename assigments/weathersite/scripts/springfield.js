@@ -1,5 +1,5 @@
 var weatherObject = new XMLHttpRequest();
-weatherObject.open('GET', 'http://api.wunderground.com/api/177b201c37485d0e/conditions/q/MN/Franklin.json',true );
+weatherObject.open('GET', 'http://api.wunderground.com/api/177b201c37485d0e/conditions/q/MA/Springfield.json',true );
 
 weatherObject.send();
 

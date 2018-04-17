@@ -15,7 +15,7 @@ h1 {
 
 h2 {
   font-weight: normal;
-  font-size: 14px;
+  
 }
 
 h3 {
@@ -210,6 +210,8 @@ nav ul.hide {
   margin-top: 5px;
 }
 
+.wt-group h2 { padding: 7px 7px;
+font-size: 18px;}
 .main-image {
   padding-top: 5px;
   width: 100%;

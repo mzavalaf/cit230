@@ -55,30 +55,30 @@
           <img src="images/greenville_large.jpeg" alt="Greenville image">
         </picture>
 	</div>
-      <div class="wt-group">
-        <h2 class="main-title">Franklin Now!</h2>
+        <div class="wt-group">
+        <h2 class="main-title"><span id="place"> City, State </span></h2>
         <div class="wt-block">
-          <div class="wt-desc">Sunny</div>
-          <div class="wt-icon-container">
-            <img src="images/s.jpg" class="weather-icon" alt="Weather icon">
+         
+          <div class="wt-desc"><img id="w_icon" scr="" alt="weather">
           </div>
         </div>
          <div class="temperature">
-          High:
-          &nbsp;<span id="high-temp"></span>&deg;F
+          Fahrenheit:
+          &nbsp;<span id="currentTempFa"></span>&deg;F
           <br>
-          Low:
-          &nbsp;<span id="low-temp"></span>&deg;F
+		   Centigrade:
+           &nbsp;<span id="currentTempCen"></span>&deg;C
         </div>
-        <div class="precip-wind">
-          Precipitation: 
-          &nbsp;<span id="precipitation"></span>%
+         <div class="precip-wind">
+           Weather: 
+          &nbsp;<span id="day"></span>
           <br>
           Wind Speed:
-          &nbsp;<span id="wind-speed"></span>mph
+          &nbsp;<span id="wind-speed"></span>  mph
           &nbsp;<span id="wind-direction"></span>
-          <br><br>
-          </div>
+          <br>
+          
+        </div>
 	    <div class="form">
 		 <h1>Enter Temperature in Fahrenheit and Wind Speed</h1>
           Temperature:<br><input type="text" id="tempInputBox" size="5" style="text-align: center">
@@ -147,5 +147,6 @@
   </footer>
 
    <script src="scripts/windchill.js"></script>
+	  <script src="scripts/greenville.js"></script>
 </body>
 </html>
