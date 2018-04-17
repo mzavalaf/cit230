@@ -25,7 +25,4 @@ weatherObject.onload = function() {
 	
 	document.getElementById('forecast-desc').innerHTML = weatherInfo.current_observation.forecast_url
 	
-	
-	
-	
 }
