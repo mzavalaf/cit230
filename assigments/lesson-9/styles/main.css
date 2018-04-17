@@ -126,7 +126,7 @@ nav ul.hide {
   display: none;
 }
 
-.weather-container {
+.wt-container {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -142,7 +142,7 @@ nav ul.hide {
   margin: auto;
 }
 
-.weather-group {
+.wt-group {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -156,7 +156,7 @@ nav ul.hide {
   padding-top: 5px;
 }
 
-.weather-block {
+.wt-block {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
@@ -164,13 +164,13 @@ nav ul.hide {
   width: 100%;
 }
 
-.weather-desc {
+.wt-desc {
   font-family: 'Courgette', cursive;
   font-size: 1.5em;
   text-align: right;
 }
 
-.weather-icon {
+.wt-icon {
   width: 100px;
   height: 100px;
   margin-left: 1em;
@@ -182,7 +182,7 @@ nav ul.hide {
   text-align: center;
 }
 
-.weather-data {
+.wt-data {
   padding-top: 5px;
   padding-bottom: 5px;
   display: grid;
@@ -190,14 +190,14 @@ nav ul.hide {
   grid-template-columns: 1fr 2fr;
 }
 
-.weather-data div {
+.wt-data div {
   outline: 1px solid;
   margin-top: 1px;
   margin-left: 1px;
   padding: 3px 0.5em 3px 0.5em;
 }
 
-.weather-data .header {
+.wt-data .header {
   text-align: right;
   font-weight: bold;
 }
