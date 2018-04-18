@@ -23,6 +23,10 @@ h2 {
   font-size: 14px;
 }
 
+video {
+  width: 100%;
+}
+
 h3 {
   font-weight: normal;
   text-align: center;
@@ -251,6 +255,10 @@ footer aside .footer-bar{
   color: lightgray;
  
 }
+
+footer aside a {  background-color: #8fb339;
+  padding: 0.5em;
+  color: lightgray; }
 footer aside span {
   font-weight: normal;
   background-color:#8fb339;
