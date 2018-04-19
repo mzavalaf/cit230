@@ -533,9 +533,7 @@ input:required {
   background-position: 4px -61px;
 }
 
-input:focus:invalid {
-  background-position: 4px -111px;
-}
+
 
 input:required:valid {
   background-color: #fff;
